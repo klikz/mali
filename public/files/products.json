@@ -1,0 +1,1604 @@
+[
+  {
+    "id": 1,
+    "id_type": 1,
+    "name": {
+      "uz": "Xamirturushsiz",
+      "ru": "Слоёное бездрожжевое",
+      "en": "Yeast-free puff pastry"
+    },
+    "type": {
+      "uz": "Xamir",
+      "ru": "Тесто",
+      "en": "Dough"
+    },
+    "info": {
+      "uz": "256 qatlam",
+      "ru": "256 слоев",
+      "en": "256 layers"
+    },
+    "img": "1.png",
+    "weight": [
+      500,
+      1000
+    ],
+    "pack": {
+      "list": [
+        {
+          "type": {
+            "uz": "Qadoq",
+            "ru": "Упаковка",
+            "en": "Package"
+          },
+          "weight": 500,
+          "inpack": 1,
+          "box": 10,
+          "box_weight": 5
+        },
+        {
+          "type": {
+            "uz": "Qadoq",
+            "ru": "Упаковка",
+            "en": "Package"
+          },
+          "weight": 1000,
+          "inpack": 2,
+          "box": 6,
+          "box_weight": 6
+        }
+      ]
+    },
+    "compound": {
+      "uz": "Bug'doy uni, margarin, o'simlik moyi, limon kislotasi, osh tuzi, suv.",
+      "ru": "Мука пшеничная в/с, маргарин, растительное масло, лимонная кислота, соль пищевая, вода.",
+      "en": "Wheat flour, margarine, vegetable oil, citric acid, table salt, water."
+    },
+    "energy_value": "367.6",
+    "nutritional_value": {
+      "uz": "oqsillar - 5,5 g, uglevodlar - 36 g, yog'lar - 22,4 g.",
+      "ru": "белков - 5,5 г, углеводов - 36 г, жиров - 22,4 г.",
+      "en": "proteins - 5.5 g, carbohydrates - 36 g, fats - 22.4 g."
+    }
+  },
+  {
+    "id": 2,
+    "id_type": 2,
+    "name": {
+      "uz": "Xamirturushli qatlama",
+      "ru": "Слоёное дрожжевое",
+      "en": "Yeast puff pastry"
+    },
+    "type": {
+      "uz": "Xamir",
+      "ru": "Тесто",
+      "en": "Dough"
+    },
+    "info": {
+      "uz": "Havo xamiri",
+      "ru": "Воздушное тесто",
+      "en": "Airy dough"
+    },
+    "img": "2.png",
+    "weight": [
+      500,
+      1000
+    ],
+    "pack": {
+      "list": [
+        {
+          "type": {
+            "uz": "Qadoq",
+            "ru": "Упаковка",
+            "en": "Package"
+          },
+          "weight": 500,
+          "inpack": 1,
+          "box": 10,
+          "box_weight": 5
+        },
+        {
+          "type": {
+            "uz": "Qadoq",
+            "ru": "Упаковка",
+            "en": "Package"
+          },
+          "weight": 1000,
+          "inpack": 2,
+          "box": 6,
+          "box_weight": 6
+        }
+      ]
+    },
+    "compound": {
+      "uz": "Bug'doy uni, xamirturush, margarin, o'simlik moyi, limon kislotasi, osh tuzi, shakar, suv.",
+      "ru": "Мука пшеничная в/с, дрожжи, маргарин, растительное масло, лимонная кислота, соль пищевая, сахар, вода.",
+      "en": "Wheat flour, yeast, margarine, vegetable oil, citric acid, table salt, sugar, water."
+    },
+    "energy_value": "305",
+    "nutritional_value": {
+      "uz": "oqsillar - 6,1 g, uglevodlar - 42,8 g, yog'lar - 12,2 g.",
+      "ru": "белков - 6,1 г, углеводов - 42,8 г, жиров - 12,2 г.",
+      "en": "proteins - 6.1 g, carbohydrates - 42.8 g, fats - 12.2 g."
+    }
+  },
+  {
+    "id": 3,
+    "id_type": 3,
+    "img": "no_photo.png",
+    "name": {
+      "uz": "Sloyenoye sariyog'da",
+      "ru": "Слоёное на сливочном масле",
+      "en": "Puff pastry with butter"
+    },
+    "type": {
+      "uz": "Xamir",
+      "ru": "Тесто",
+      "en": "Dough"
+    },
+    "info": {
+      "uz": "Tabiiy sariyog'",
+      "ru": "Натуральное сливочное масло",
+      "en": "Natural butter"
+    },
+    "weight": [
+      450
+    ],
+    "pack": {
+      "list": [
+        {
+          "type": {
+            "uz": "Qadoq",
+            "ru": "Упаковка",
+            "en": "Package"
+          },
+          "weight": 450,
+          "inpack": 1,
+          "box": 10,
+          "box_weight": 4.5
+        }
+      ]
+    },
+    "compound": {
+      "uz": "Bug'doy uni, o'simlik moyi, suv, limon kislotasi, tuz, sariyog'.",
+      "ru": "Мука пшеничная в/с, растительное масло, вода, лимонная кислота, соль, сливочное масло.",
+      "en": "Wheat flour, vegetable oil, water, citric acid, salt, butter."
+    },
+    "energy_value": "205.4",
+    "nutritional_value": {
+      "uz": "oqsillar - 22,2 g, uglevodlar - 22,8 g, yog'lar - 5,5 g.",
+      "ru": "белков 22,2 г., углеводов 22,8 г., жиров 5,5 г.",
+      "en": "proteins - 22.2 g, carbohydrates - 22.8 g, fats - 5.5 g."
+    }
+  },
+  {
+    "id": 4,
+    "id_type": 5,
+    "name": {
+      "uz": "Samsa uchun sloyenoye",
+      "ru": "Слоёное для самсы",
+      "en": "Puff pastry for samsa"
+    },
+    "type": {
+      "uz": "Xamir",
+      "ru": "Тесто",
+      "en": "Dough"
+    },
+    "info": {
+      "uz": "Qarsildoq xamir",
+      "ru": "Хрустящее тесто",
+      "en": "Crispy dough"
+    },
+    "img": "4.png",
+    "weight": [
+      900
+    ],
+    "pack": {
+      "list": [
+        {
+          "type": {
+            "uz": "Qadoq",
+            "ru": "Упаковка",
+            "en": "Package"
+          },
+          "weight": 900,
+          "inpack": 1,
+          "box": 6,
+          "box_weight": 5.4
+        }
+      ]
+    }
+  },
+  {
+    "id": 5,
+    "id_type": 7,
+    "name": {
+      "uz": "Pitsa uchun",
+      "ru": "Для пиццы",
+      "en": "For pizza"
+    },
+    "type": {
+      "uz": "Xamir",
+      "ru": "Тесто",
+      "en": "Dough"
+    },
+    "info": {
+      "uz": "Qulay o'lcham",
+      "ru": "Удобный размер",
+      "en": "Convenient size"
+    },
+    "img": "5.png",
+    "count": 2,
+    "weight": [
+      250
+    ],
+    "pack": {
+      "list": [
+        {
+          "type": {
+            "uz": "Qadoq",
+            "ru": "Упаковка",
+            "en": "Package"
+          },
+          "weight": 500,
+          "inpack": 2,
+          "box": 10,
+          "box_weight": 5
+        }
+      ]
+    },
+    "compound": {
+      "uz": "Bug'doy uni, o'simlik yog'i, shakar, ovqat tuzi, xamirturush, suv.",
+      "ru": "Мука пшеничная в/с, масло растительное, сахар, соль пищевая, дрожжи, вода.",
+      "en": "Wheat flour, vegetable oil, sugar, table salt, yeast, water."
+    },
+    "energy_value": "320",
+    "nutritional_value": {
+      "uz": "oqsillar - 8,7 g, uglevodlar - 55,8 g, yog'lar - 6,8 g.",
+      "ru": "белков - 8,7 г., углеводов 55,8 г., жиров - 6,8 г.",
+      "en": "proteins - 8.7 g, carbohydrates - 55.8 g, fats - 6.8 g."
+    }
+  },
+  {
+    "id": 6,
+    "id_type": 4,
+    "name": {
+      "uz": "Xamirturushli boy xamir",
+      "ru": "Сдобное дрожжевое",
+      "en": "Rich yeast dough"
+    },
+    "type": {
+      "uz": "Xamir",
+      "ru": "Тесто",
+      "en": "Dough"
+    },
+    "info": {
+      "uz": "Qopqog'i ko'tarilgan xamir",
+      "ru": "Пышное тесто",
+      "en": "Fluffy dough"
+    },
+    "img": "6.png",
+    "weight": [
+      500
+    ],
+    "pack": {
+      "list": [
+        {
+          "type": {
+            "uz": "Qadoq",
+            "ru": "Упаковка",
+            "en": "Package"
+          },
+          "weight": 500,
+          "inpack": 1,
+          "box": 10,
+          "box_weight": 5
+        }
+      ]
+    },
+    "compound": {
+      "uz": "Bug'doy uni, margarin, o'simlik yog'i, sut, ovqat tuzi, shakar, xamirturush, tuxum, suv.",
+      "ru": "Мука пшеничная в/с, маргарин, растительное масло, молоко, соль пищевая, сахар, дрожжи, яйцо, вода.",
+      "en": "Wheat flour, margarine, vegetable oil, milk, table salt, sugar, yeast, egg, water."
+    },
+    "energy_value": "229",
+    "nutritional_value": {
+      "uz": "oqsillar - 6,7 g, uglevodlar - 44,8 g, yog'lar - 2,5 g.",
+      "ru": "белков 6,7 г, углеводов - 44,8 г, жиров - 2,5 г.",
+      "en": "proteins - 6.7 g, carbohydrates - 44.8 g, fats - 2.5 g."
+    }
+  },
+  {
+    "id": 7,
+    "id_type": 8,
+    "name": {
+      "uz": "Klassik",
+      "ru": "Классическая",
+      "en": "Classic"
+    },
+    "type": {
+      "uz": "Katlama",
+      "ru": "Катлама",
+      "en": "Katlama"
+    },
+    "info": {
+      "uz": "Ko'p qavatli",
+      "ru": "Многослойная",
+      "en": "Layered"
+    },
+    "img": "7.png",
+    "count": 4,
+    "weight": [
+      125
+    ],
+    "pack": {
+      "list": [
+        {
+          "type": {
+            "uz": "Qadoq",
+            "ru": "Упаковка",
+            "en": "Package"
+          },
+          "weight": 500,
+          "inpack": 4,
+          "box": 10,
+          "box_weight": 5
+        }
+      ]
+    },
+    "compound": {
+      "uz": "Bug'doy uni v/s, margarin, ovqat tuzi, suv.",
+      "ru": "Мука пшеничная в/с, маргарин, соль пищевая, вода.",
+      "en": "Wheat flour v/s, margarine, table salt, water."
+    },
+    "energy_value": "265.3",
+    "nutritional_value": {
+      "uz": "oqsillar - 6,5 g, uglevodlar - 42,3 g, yog'lar - 7,8 g.",
+      "ru": "Белков - 6,5 г. углеводов - 42,3 г, жиров 7,8 г.",
+      "en": "proteins - 6.5 g, carbohydrates - 42.3 g, fats - 7.8 g."
+    }
+  },
+  {
+    "id": 8,
+    "id_type": 6,
+    "img": "no_photo.png",
+    "name": {
+      "uz": "Qumloq xamir",
+      "ru": "Песочное",
+      "en": "Shortcrust dough"
+    },
+    "type": {
+      "uz": "Xamir",
+      "ru": "Тесто",
+      "en": "Dough"
+    },
+    "info": {
+      "uz": "Bo'tqalangan xamir",
+      "ru": "Рассыпчатое тесто",
+      "en": "Crumbly dough"
+    },
+    "weight": [
+      500
+    ],
+    "pack": {
+      "list": [
+        {
+          "type": {
+            "uz": "Qadoq",
+            "ru": "Упаковка",
+            "en": "Package"
+          },
+          "weight": 500,
+          "inpack": 1,
+          "box": 10,
+          "box_weight": 5
+        }
+      ]
+    },
+    "compound": {
+      "uz": "Bug'doy uni 1/s, margarin, shakar, ovqat sodasi, tuxum, suv.",
+      "ru": "Мука пшеничная 1/с, маргарин, сахар, пищевая сода, яйцо, вода.",
+      "en": "Wheat flour 1/s, margarine, sugar, baking soda, egg, water."
+    },
+    "energy_value": "412.8",
+    "nutritional_value": {
+      "uz": "oqsillar - 5,5 g, uglevodlar - 34,7 g, yog'lar - 28,0 g.",
+      "ru": "белков - 5,5 г, углеводов 34,7 г, жиров - 28,0 г.",
+      "en": "proteins - 5.5 g, carbohydrates - 34.7 g, fats - 28.0 g."
+    }
+  },
+  {
+    "id": 9,
+    "id_type": 9,
+    "name": {
+      "uz": "Piyoz bilan",
+      "ru": "С луком",
+      "en": "With onion"
+    },
+    "type": {
+      "uz": "Katlama",
+      "ru": "Катлама",
+      "en": "Katlama"
+    },
+    "info": {
+      "uz": "Achchiq ta'm",
+      "ru": "Пикантный вкус",
+      "en": "Spicy taste"
+    },
+    "img": "9.png",
+    "count": 4,
+    "weight": [
+      125
+    ],
+    "pack": {
+      "list": [
+        {
+          "type": {
+            "uz": "Qadoq",
+            "ru": "Упаковка",
+            "en": "Package"
+          },
+          "weight": 500,
+          "inpack": 4,
+          "box": 10,
+          "box_weight": 5
+        }
+      ]
+    },
+    "compound": {
+      "uz": "Bug'doy uni v/s, margarin, piyoz, ovqat tuzi, suv.",
+      "ru": "Мука пшеничная в/с, маргарин, лук, соль пищевая, вода.",
+      "en": "Wheat flour v/s, margarine, onion, table salt, water."
+    },
+    "energy_value": "280",
+    "nutritional_value": {
+      "uz": "oqsillar - 8,2 g, uglevodlar - 52,8 g, yog'lar - 6,8 g.",
+      "ru": "белков - 8,2 г, углеводов 52,8 г, жиров 6,8 г.",
+      "en": "proteins - 8.2 g, carbohydrates - 52.8 g, fats - 6.8 g."
+    }
+  },
+  {
+    "id": 10,
+    "id_type": 33,
+    "name": {
+      "uz": "Klassik",
+      "ru": "Классические",
+      "en": "Classic"
+    },
+    "type": {
+      "uz": "Sırnikı",
+      "ru": "Сырники",
+      "en": "Cheesecakes"
+    },
+    "info": {
+      "uz": "65% tabiiy tvorog",
+      "ru": "65% натурального творога",
+      "en": "65% natural cottage cheese"
+    },
+    "img": "10.png",
+    "count": 10,
+    "weight": [
+      500
+    ],
+    "pack": {
+      "list": [
+        {
+          "type": {
+            "uz": "Qadoq",
+            "ru": "Упаковка",
+            "en": "Package"
+          },
+          "weight": 500,
+          "inpack": 10,
+          "box": 6,
+          "box_weight": 3
+        }
+      ]
+    },
+    "compound": {
+      "uz": "Tabiiy tvorog, bug'doy uni v/s, o'simlik yog'i, tuz, shakar, vanil shakar, tuxum.",
+      "ru": "натуральный творог, мука пшеничная в/с, растительное масло, соль, сахар, ванильный сахар, яйцо.",
+      "en": "Natural cottage cheese, wheat flour v/s, vegetable oil, salt, sugar, vanilla sugar, egg."
+    },
+    "energy_value": "205.4",
+    "nutritional_value": {
+      "uz": "oqsillar - 22.2 g, uglevodlar - 22.8 g, yog'lar - 5.5 g.",
+      "ru": "белков 22,2 г., углеводов 22,8 г., жиров 5,5 г.",
+      "en": "proteins - 22.2 g, carbohydrates - 22.8 g, fats - 5.5 g."
+    }
+  },
+  {
+    "id": 11,
+    "id_type": 10,
+    "name": {
+      "uz": "Go'sht bilan",
+      "ru": "С мясом",
+      "en": "With meat"
+    },
+    "type": {
+      "uz": "Blınchık",
+      "ru": "Блинчики",
+      "en": "Pancakes"
+    },
+    "info": {
+      "uz": "100% mol go'shti",
+      "ru": "100% говядина",
+      "en": "100% beef"
+    },
+    "img": "11.png",
+    "count": 4,
+    "weight": [
+      280
+    ],
+    "pack": {
+      "list": [
+        {
+          "type": {
+            "uz": "Qadoq",
+            "ru": "Упаковка",
+            "en": "Package"
+          },
+          "weight": 280,
+          "inpack": 4,
+          "box": 8,
+          "box_weight": 2.2
+        }
+      ]
+    },
+    "compound": {
+      "uz": "Xamir - bug'doy uni (v/s), kungaboqar yog'i, sut, shakar, tuxum, tuz, suv. Ichimlik - mol go'shti, mol yog'i, piyoz, kungaboqar yog'i, tuz, ziravorlar.",
+      "ru": "Тесто мука пшеничная (в/с), подсолнечное масло, молоко, сахар, разрыхлитель, яйца, соль, вода. Начинка - мясо говядина, жир говяжий, лук, подсолнечное масло, соль, специи.",
+      "en": "Dough - wheat flour (v/s), sunflower oil, milk, sugar, eggs, salt, water. Filling - beef, beef fat, onion, sunflower oil, salt, spices."
+    },
+    "energy_value": "183.9",
+    "nutritional_value": {
+      "uz": "oqsillar - 8 g, uglevodlar - 3.6 g, yog'lar - 3.1 g.",
+      "ru": "белков 8 г., углеводов 3,6 г., жиров - 3,1 г.",
+      "en": "proteins - 8 g, carbohydrates - 3.6 g, fats - 3.1 g."
+    }
+  },
+  {
+    "id": 12,
+    "id_type": 34,
+    "img": "no_photo.png",
+    "name": {
+      "uz": "Shokolad bilan",
+      "ru": "С шоколадом",
+      "en": "With chocolate"
+    },
+    "type": {
+      "uz": "Sırnikı",
+      "ru": "Сырники",
+      "en": "Cheesecakes"
+    },
+    "info": {
+      "uz": "Sutli shokolad",
+      "ru": "Молочный шоколад",
+      "en": "Milk chocolate"
+    },
+    "count": 10,
+    "weight": [
+      500
+    ],
+    "pack": {
+      "list": [
+        {
+          "type": {
+            "uz": "Qadoq",
+            "ru": "Упаковка",
+            "en": "Package"
+          },
+          "weight": 500,
+          "inpack": 10,
+          "box": 6,
+          "box_weight": 3
+        }
+      ]
+    },
+    "compound": {
+      "uz": "Tabiiy tvorog, bug'doy uni v/s, o'simlik yog'i, tuz, shakar, vanil shakar, tuxum, shokolad.",
+      "ru": "натуральный творог, мука пшеничная в/с, растительное масло, соль, сахар, ванильный сахар, яйцо, шоколад.",
+      "en": "Natural cottage cheese, wheat flour v/s, vegetable oil, salt, sugar, vanilla sugar, egg, chocolate."
+    },
+    "energy_value": "250",
+    "nutritional_value": {
+      "uz": "oqsillar - 12 g, uglevodlar - 26 g, yog'lar - 12 g.",
+      "ru": "белков - 12 г, углеводов - 26 г, жиров - 12 г.",
+      "en": "proteins - 12 g, carbohydrates - 26 g, fats - 12 g."
+    }
+  },
+  {
+    "id": 13,
+    "id_type": 11,
+    "name": {
+      "uz": "Tvorog bilan",
+      "ru": "С творогом",
+      "en": "With cottage cheese"
+    },
+    "type": {
+      "uz": "Blınchık",
+      "ru": "Блинчики",
+      "en": "Pancakes"
+    },
+    "info": {
+      "uz": "Tabiiy tvorog",
+      "ru": "Натуральный творог",
+      "en": "Natural cottage cheese"
+    },
+    "img": "13.png",
+    "count": 4,
+    "weight": [
+      70
+    ],
+    "pack": {
+      "list": [
+        {
+          "type": {
+            "uz": "Qadoq",
+            "ru": "Упаковка",
+            "en": "Package"
+          },
+          "weight": 280,
+          "inpack": 4,
+          "box": 8,
+          "box_weight": 2.2
+        }
+      ]
+    },
+    "compound": {
+      "uz": "Xamir - bug'doy uni (v/s), kungaboqar yog'i, sut, shakar, tuxum, tuz, suv. Ichimlik - tvorog, shakar, vanil.",
+      "ru": "Тесто мука пшеничная (в/с), подсолнечное масло, молоко, сахар, разрыхлитель, яйца, соль, вода. Начинка творог, сахар, ваниль.",
+      "en": "Dough - wheat flour (v/s), sunflower oil, milk, sugar, eggs, salt, water. Filling - cottage cheese, sugar, vanilla."
+    },
+    "energy_value": "196.9",
+    "nutritional_value": {
+      "uz": "oqsillar - 9,6 g, uglevodlar - 20,6 g, yog'lar - 8,3 g.",
+      "ru": "белков - 9,6 г., углеводов - 20,6 г., жиров - 8,3 г.",
+      "en": "proteins - 9.6 g, carbohydrates - 20.6 g, fats - 8.3 g."
+    }
+  },
+  {
+    "id": 14,
+    "id_type": 35,
+    "name": {
+      "ru": "Бельгийские",
+      "uz": "Belgiya",
+      "en": "Belgian"
+    },
+    "type": {
+      "ru": "Вафли",
+      "uz": "Vafli",
+      "en": "Waffles"
+    },
+    "info": {
+      "ru": "С жемчужным сахаром",
+      "uz": "Shakarli marvarid",
+      "en": "With pearl sugar"
+    },
+    "img": "14.png",
+    "count": 13,
+    "weight": [
+      80
+    ],
+    "pack": {
+      "list": [
+        {
+          "type": {
+            "ru": "Коробка",
+            "uz": "Quti",
+            "en": "Box"
+          },
+          "weigh_big": 1.1,
+          "inbox": 13
+        }
+      ]
+    },
+    "compound": {
+      "ru": "Мука пшеничная в/с, маргарин, сахар, пищевая сода, яйца, вода.",
+      "uz": "Tayyor un, margarin, shakar, ovqat sodasi, tuxum, suv.",
+      "en": "Premium wheat flour, margarine, sugar, baking soda, eggs, water."
+    },
+    "energy_value": "390",
+    "nutritional_value": {
+      "ru": "белков - 6 г, углеводов - 50 г, жиров - 20 г.",
+      "uz": "oqsillar - 6 g, uglevodlar - 50 g, yog'lar - 20 g.",
+      "en": "proteins - 6 g, carbohydrates - 50 g, fats - 20 g."
+    }
+  },
+  {
+    "id": 15,
+    "id_type": 12,
+    "name": {
+      "ru": "Сосиски в тесте",
+      "uz": "Xamirda sosiskalar",
+      "en": "Sausages in dough"
+    },
+    "info": {
+      "ru": "Сосиски с сыром",
+      "uz": "Pishloqli sosiskalar",
+      "en": "Sausages with cheese"
+    },
+    "img": "15.png",
+    "count": 21,
+    "weight": [
+      90
+    ],
+    "pack": {
+      "list": [
+        {
+          "type": {
+            "ru": "Коробка",
+            "uz": "Quti",
+            "en": "Box"
+          },
+          "weight_big": 1.9,
+          "inbox": 21
+        }
+      ]
+    },
+    "compound": {
+      "ru": "Мука пшеничная в/с, маргарин, сахар, соль, яйца, вода, сосиска.",
+      "uz": "Tayyor un, margarin, shakar, tuz, tuxum, suv, sosiska.",
+      "en": "Premium wheat flour, margarine, sugar, salt, eggs, water, sausage."
+    },
+    "energy_value": "370",
+    "nutritional_value": {
+      "ru": "белков - 7 г, углеводов - 35 г, жиров - 25 г.",
+      "uz": "oqsillar - 7 g, uglevodlar - 35 g, yog'lar - 25 g.",
+      "en": "proteins - 7 g, carbohydrates - 35 g, fats - 25 g."
+    }
+  },
+  {
+    "id": 16,
+    "id_type": 19,
+    "name": {
+      "ru": "С картофелем и луком",
+      "uz": "Kartoshka va piyoz bilan",
+      "en": "With potatoes and onions"
+    },
+    "type": {
+      "ru": "Вереники",
+      "uz": "Vareniklar",
+      "en": "Vareniki"
+    },
+    "info": {
+      "ru": "Ручная лепка",
+      "uz": "Qo'lda tayyorlangan",
+      "en": "Handmade"
+    },
+    "img": "16.png",
+    "count": 6,
+    "weight": [
+      500
+    ],
+    "pack": {
+      "list": [
+        {
+          "type": {
+            "uz": "Qadoq",
+            "ru": "Упаковка",
+            "en": "Package"
+          },
+          "weight": 500,
+          "inpack": 6,
+          "box_weight": 3
+        }
+      ]
+    },
+    "compound": {
+      "ru": "Мука пшеничная в/с, растительное масло, соль пищевая, яйцо, вода, картошка, лук.",
+      "uz": "Tayyor bug'doy uni, o'simlik moyi, ovqat tuzi, tuxum, suv, kartoshka, piyoz.",
+      "en": "Premium wheat flour, vegetable oil, table salt, egg, water, potatoes, onions."
+    },
+    "energy_value": "186.2",
+    "nutritional_value": {
+      "ru": "белков 5 г., углеводов 30,6 г., жиров - 4,9 г.",
+      "uz": "oqsillar - 5 g, uglevodlar - 30,6 g, yog'lar - 4,9 g.",
+      "en": "proteins - 5 g, carbohydrates - 30.6 g, fats - 4.9 g."
+    }
+  },
+  {
+    "id": 17,
+    "id_type": 17,
+    "name": {
+      "ru": "С говядиной",
+      "uz": "Mol go‘shti bilan",
+      "en": "With beef"
+    },
+    "type": {
+      "ru": "Манты",
+      "uz": "Manti",
+      "en": "Manti"
+    },
+    "info": {
+      "ru": "Рубленая говядина, без жира",
+      "uz": "Tug'ralgan mol go'shti, yog'siz",
+      "en": "Chopped beef, no fat"
+    },
+    "img": "17.png",
+    "count": 12,
+    "weight": [
+      42
+    ],
+    "pack": {
+      "list": [
+        {
+          "type": {
+            "ru": "Упаковка",
+            "uz": "Qadoq",
+            "en": "Packaging"
+          },
+          "weight": 500,
+          "inpack": 12,
+          "in_container": 6,
+          "box_weight": 3
+        }
+      ]
+    },
+    "compound": {
+      "ru": "Тесто мука пшеничная в/с, растительное масло, соль пищевая, вода. Начинка говядина, лук, растительное масло, соль пищевая, специи.",
+      "uz": "Xamir: tayyor bug'doy uni, o'simlik moyi, ovqat tuzi, suv. Nachinka: mol go'shti, piyoz, o'simlik moyi, ovqat tuzi, ziravorlar.",
+      "en": "Dough: premium wheat flour, vegetable oil, table salt, water. Filling: beef, onions, vegetable oil, table salt, spices."
+    },
+    "energy_value": "140",
+    "nutritional_value": {
+      "ru": "белков 8,4 г., углеводов 19 г., жиров - 3,1 г.",
+      "uz": "oqsillar - 8,4 g, uglevodlar - 19 g, yog'lar - 3,1 g.",
+      "en": "proteins - 8.4 g, carbohydrates - 19 g, fats - 3.1 g."
+    }
+  },
+  {
+    "id": 18,
+    "id_type": 18,
+    "name": {
+      "ru": "С тыквой",
+      "uz": "Qovoqli",
+      "en": "With pumpkin"
+    },
+    "type": {
+      "ru": "Манты",
+      "uz": "Manti",
+      "en": "Manti"
+    },
+    "info": {
+      "ru": "Сладкая тыква",
+      "uz": "Shirin qovoq",
+      "en": "Sweet pumpkin"
+    },
+    "img": "18.png",
+    "count": 12,
+    "weight": [
+      42
+    ],
+    "pack": {
+      "list": [
+        {
+          "type": {
+            "ru": "Упаковка",
+            "uz": "Qadoq",
+            "en": "Packaging"
+          },
+          "weight": 500,
+          "inpack": 12,
+          "in_container": 6,
+          "box_weight": 3
+        }
+      ]
+    },
+    "compound": {
+      "ru": "Тесто - мука пшеничная в/с, растительное масло, соль пищевая, яйцо, вода. Начинка тыква, лук, растительное масло, сахар, соль пищевая.",
+      "uz": "Xamir - tayyor bug'doy uni, o'simlik yog'i, ovqat tuzi, tuxum, suv. Nachinka: qovoq, piyoz, o'simlik yog'i, shakar, tuz.",
+      "en": "Dough: premium wheat flour, vegetable oil, table salt, egg, water. Filling: pumpkin, onion, vegetable oil, sugar, table salt."
+    },
+    "energy_value": "245.5",
+    "nutritional_value": {
+      "ru": "белков - 13 г., углеводов - 18,5 г, жиров - 21,5 г.",
+      "uz": "oqsillar - 13 g, uglevodlar - 18,5 g, yog'lar - 21,5 g.",
+      "en": "proteins - 13 g, carbohydrates - 18.5 g, fats - 21.5 g."
+    }
+  },
+  {
+    "id": 19,
+    "id_type": 15,
+    "name": {
+      "ru": "С говядиной",
+      "uz": "Mol go‘shti bilan",
+      "en": "With beef"
+    },
+    "type": {
+      "ru": "Пельмени",
+      "uz": "Pelmenlar",
+      "en": "Dumplings"
+    },
+    "info": {
+      "ru": "Ручная лепка",
+      "uz": "Qo'lda tayyorlangan",
+      "en": "Handmade"
+    },
+    "img": "19.png",
+    "count": 6,
+    "weight": [
+      500
+    ],
+    "pack": {
+      "list": [
+        {
+          "type": {
+            "uz": "Qadoq",
+            "ru": "Упаковка",
+            "en": "Package"
+          },
+          "weight": 500,
+          "in_container": 6,
+          "box_weight": 3
+        }
+      ]
+    },
+    "compound": {
+      "ru": "Тесто: мука пшеничная (в/с), яйцо, соль, вода. Начинка: мясо говядины, лук, подсолнечное масло, соль, перец.",
+      "uz": "Xamir: tayyor bug'doy uni, tuxum, tuz, suv. Nachinka: mol go'shti, piyoz, kungaboqar yog'i, tuz, murch.",
+      "en": "Dough: premium wheat flour, egg, salt, water. Filling: beef, onions, sunflower oil, salt, pepper."
+    },
+    "energy_value": "190",
+    "nutritional_value": {
+      "ru": "белков 8,4 г. углеводов 28,4 г., жиров 4,6 г.",
+      "uz": "oqsillar - 8,4 g, uglevodlar - 28,4 g, yog'lar - 4,6 g.",
+      "en": "proteins - 8.4 g, carbohydrates - 28.4 g, fats - 4.6 g."
+    }
+  },
+  {
+    "id": 20,
+    "id_type": 16,
+    "name": {
+      "ru": "Чучвара",
+      "uz": "Chuchvara",
+      "en": "Chuchvara"
+    },
+    "type": {
+      "ru": "Пельмени узбекские",
+      "uz": "O‘zbekcha chuchvara",
+      "en": "Uzbek dumplings"
+    },
+    "info": {
+      "ru": "Ручная лепка",
+      "uz": "Qo'lda tayyorlangan",
+      "en": "Handmade"
+    },
+    "img": "20.png",
+    "count": 6,
+    "weight": [
+      500
+    ],
+    "pack": {
+      "list": [
+        {
+          "type": {
+            "uz": "Qadoq",
+            "ru": "Упаковка",
+            "en": "Package"
+          },
+          "weight": 500,
+          "in_container": 6,
+          "box_weight": 3
+        }
+      ]
+    },
+    "compound": {
+      "ru": "Тесто: мука пшеничная (в/с), яйцо, соль, вода. Начинка: мясо говядины, лук, подсолнечное масло, соль, специи.",
+      "uz": "Xamir: tayyor bug'doy uni, tuxum, tuz, suv. Nachinka: mol go'shti, piyoz, kungaboqar yog'i, tuz, ziravorlar.",
+      "en": "Dough: premium wheat flour, egg, salt, water. Filling: beef, onions, sunflower oil, salt, spices."
+    },
+    "energy_value": "190",
+    "nutritional_value": {
+      "ru": "белков - 8,4 г. углеводов 28,4 г, жиров - 4,6 г.",
+      "uz": "oqsillar - 8,4 g, uglevodlar - 28,4 g, yog'lar - 4,6 g.",
+      "en": "proteins - 8.4 g, carbohydrates - 28.4 g, fats - 4.6 g."
+    }
+  },
+  {
+    "id": 21,
+    "id_type": 20,
+    "name": {
+      "ru": "С говядиной",
+      "uz": "Mol go‘shti bilan",
+      "en": "With beef"
+    },
+    "type": {
+      "ru": "Самса",
+      "uz": "Samsa",
+      "en": "Samsa"
+    },
+    "info": {
+      "ru": "Рубленая говядина, без жира",
+      "uz": "Tug'ralgan mol go'shti, yog'siz",
+      "en": "Chopped beef, no fat"
+    },
+    "img": "21.png",
+    "count": 8,
+    "weight": [
+      63
+    ],
+    "pack": {
+      "list": [
+        {
+          "type": {
+            "ru": "Упаковка",
+            "uz": "Qadoq",
+            "en": "Packaging"
+          },
+          "weight": 500,
+          "inpack": 8,
+          "in_container": 6,
+          "box_weight": 3
+        },
+        {
+          "type": {
+            "ru": "Коробка",
+            "uz": "Quti",
+            "en": "Box"
+          },
+          "weight_big": 2.5,
+          "inbox": 40
+        }
+      ]
+    },
+    "compound": {
+      "ru": "Тесто - мука пшеничная в/с, растительное масло, соль пищевая, яйцо, вода. Начинка тыква, лук, растительное масло, сахар, соль пищевая.",
+      "uz": "Xamir - tayyor bug'doy uni, o'simlik yog'i, ovqat tuzi, tuxum, suv. Nachinka: qovoq, piyoz, o'simlik yog'i, shakar, tuz.",
+      "en": "Dough: premium wheat flour, vegetable oil, table salt, egg, water. Filling: pumpkin, onion, vegetable oil, sugar, table salt."
+    },
+    "energy_value": "245.5",
+    "nutritional_value": {
+      "ru": "белков - 13 г., углеводов - 18,5 г, жиров - 21,5 г.",
+      "uz": "oqsillar - 13 g, uglevodlar - 18,5 g, yog'lar - 21,5 g.",
+      "en": "proteins - 13 g, carbohydrates - 18.5 g, fats - 21.5 g."
+    }
+  },
+  {
+    "id": 22,
+    "id_type": 21,
+    "name": {
+      "ru": "С тыквой",
+      "uz": "Qovoqli",
+      "en": "With pumpkin"
+    },
+    "type": {
+      "ru": "Самса",
+      "uz": "Samsa",
+      "en": "Samsa"
+    },
+    "info": {
+      "ru": "Сладкая тыква",
+      "uz": "Shirin qovoq",
+      "en": "Sweet pumpkin"
+    },
+    "img": "22.png",
+    "count": 8,
+    "weight": [
+      63
+    ],
+    "pack": {
+      "list": [
+        {
+          "type": {
+            "ru": "Упаковка",
+            "uz": "Qadoq",
+            "en": "Packaging"
+          },
+          "weight": 500,
+          "inpack": 8,
+          "in_container": 6,
+          "box_weight": 3
+        },
+        {
+          "type": {
+            "ru": "Коробка",
+            "uz": "Quti",
+            "en": "Box"
+          },
+          "weight_big": 2.5,
+          "inbox": 40
+        }
+      ]
+    },
+    "compound": {
+      "ru": "Тесто - мука пшеничная в/с, растительное масло, соль пищевая, яйцо, вода. Начинка тыква, лук, растительное масло, сахар, соль пищевая.",
+      "uz": "Xamir - tayyor bug'doy uni, o'simlik yog'i, ovqat tuzi, tuxum, suv. Nachinka: qovoq, piyoz, o'simlik yog'i, shakar, tuz.",
+      "en": "Dough: premium wheat flour, vegetable oil, table salt, egg, water. Filling: pumpkin, onion, vegetable oil, sugar, table salt."
+    },
+    "energy_value": "245.5",
+    "nutritional_value": {
+      "ru": "белков - 13 г., углеводов - 18,5 г, жиров - 21,5 г.",
+      "uz": "oqsillar - 13 g, uglevodlar - 18,5 g, yog'lar - 21,5 g.",
+      "en": "proteins - 13 g, carbohydrates - 18.5 g, fats - 21.5 g."
+    }
+  },
+  {
+    "id": 23,
+    "id_type": 24,
+    "name": {
+      "ru": "С картошкой",
+      "uz": "Kartoshkali",
+      "en": "With potatoes"
+    },
+    "type": {
+      "ru": "Самса",
+      "uz": "Samsa",
+      "en": "Samsa"
+    },
+    "info": {
+      "ru": "Отборный картофель",
+      "uz": "Saralangan kartoshka",
+      "en": "Selected potatoes"
+    },
+    "img": "23.png",
+    "count": 40,
+    "weight": [
+      63
+    ],
+    "pack": {
+      "list": [
+        {
+          "type": {
+            "ru": "Коробка",
+            "uz": "Quti",
+            "en": "Box"
+          },
+          "weight_big": 2.5,
+          "inbox": 40
+        }
+      ]
+    },
+    "compound": {
+      "ru": "Мука пшеничная в/с, маргарин, сахар, пищевая сода, яйца, вода.",
+      "uz": "Tayyor un, margarin, shakar, ovqat sodasi, tuxum, suv.",
+      "en": "Premium wheat flour, margarine, sugar, baking soda, eggs, water."
+    },
+    "energy_value": "390",
+    "nutritional_value": {
+      "ru": "белков - 6 г, углеводов - 50 г, жиров - 20 г.",
+      "uz": "oqsillar - 6 g, uglevodlar - 50 g, yog'lar - 20 g.",
+      "en": "proteins - 6 g, carbohydrates - 50 g, fats - 20 g."
+    }
+  },
+  {
+    "id": 24,
+    "id_type": 22,
+    "name": {
+      "ru": "С говядиной и овощами",
+      "uz": "Mol go‘shti va sabzavotlar bilan",
+      "en": "With beef and vegetables"
+    },
+    "type": {
+      "ru": "Самса",
+      "uz": "Samsa",
+      "en": "Samsa"
+    },
+    "info": {
+      "ru": "Сочная начинка",
+      "uz": "Sharbatsiz nachinka",
+      "en": "Juicy filling"
+    },
+    "img": "24.png",
+    "count": 40,
+    "weight": [
+      63
+    ],
+    "pack": {
+      "list": [
+        {
+          "type": {
+            "ru": "Коробка",
+            "uz": "Quti",
+            "en": "Box"
+          },
+          "weight_big": 2.5,
+          "inbox": 40
+        }
+      ]
+    }
+  },
+  {
+    "id": 25,
+    "id_type": 25,
+    "name": {
+      "ru": "С зеленью",
+      "uz": "Ko‘katli",
+      "en": "With herbs"
+    },
+    "type": {
+      "ru": "Самса",
+      "uz": "Samsa",
+      "en": "Samsa"
+    },
+    "info": {
+      "ru": "Свежая зелень",
+      "uz": "Yangi ko'katlar",
+      "en": "Fresh herbs"
+    },
+    "img": "25.png",
+    "count": 40,
+    "weight": [
+      63
+    ],
+    "pack": {
+      "list": [
+        {
+          "type": {
+            "ru": "Коробка",
+            "uz": "Quti",
+            "en": "Box"
+          },
+          "weight_big": 2.5,
+          "inbox": 40
+        }
+      ]
+    }
+  },
+  {
+    "id": 26,
+    "id_type": 23,
+    "name": {
+      "ru": "С курицей",
+      "uz": "Tovuq go‘shti bilan",
+      "en": "With chicken"
+    },
+    "type": {
+      "ru": "Самса",
+      "uz": "Samsa",
+      "en": "Samsa"
+    },
+    "info": {
+      "ru": "Рубленое куриное филе",
+      "uz": "Tug'ralgan tovuq filesi",
+      "en": "Chopped chicken fillet"
+    },
+    "img": "26.png",
+    "count": 40,
+    "weight": [
+      63
+    ],
+    "pack": {
+      "list": [
+        {
+          "type": {
+            "ru": "Коробка",
+            "uz": "Quti",
+            "en": "Box"
+          },
+          "weight_big": 2.5,
+          "inbox": 40
+        }
+      ]
+    },
+    "compound": {
+      "ru": "Тесто - мука пшеничная (в/с), соль, вода, маргарин, подсолнечное масло, лимонная кислота, яйцо. Начинка - куриное мясо, лук, подсолнечное масло, соль пищевая, специи.",
+      "uz": "Xamir - tayyor bug'doy uni, tuz, suv, margarin, kungaboqar yog'i, limon kislotasi, tuxum. Nachinka - tovuq go'shti, piyoz, kungaboqar yog'i, ovqat tuzi, ziravorlar.",
+      "en": "Dough: premium wheat flour, salt, water, margarine, sunflower oil, citric acid, egg. Filling: chicken meat, onion, sunflower oil, table salt, spices."
+    },
+    "energy_value": "250",
+    "nutritional_value": {
+      "ru": "белков - 12 г, углеводов - 22 г, жиров - 12 г.",
+      "uz": "oqsillar - 12 g, uglevodlar - 22 g, yog'lar - 12 g.",
+      "en": "proteins - 12 g, carbohydrates - 22 g, fats - 12 g."
+    }
+  },
+  {
+    "id": 27,
+    "id_type": 13,
+    "name": {
+      "ru": "С мясом",
+      "uz": "Go‘sht bilan",
+      "en": "With meat"
+    },
+    "type": {
+      "ru": "Чебуреки",
+      "uz": "Chibureklar",
+      "en": "Chebureki"
+    },
+    "info": {
+      "ru": "100% говядина",
+      "uz": "100% mol go'shti",
+      "en": "100% beef"
+    },
+    "img": "27.png",
+    "count": 18,
+    "weight": [
+      85
+    ],
+    "pack": {
+      "list": [
+        {
+          "type": {
+            "ru": "Коробка",
+            "uz": "Quti",
+            "en": "Box"
+          },
+          "weight_big": 1.5,
+          "inbox": 40
+        }
+      ]
+    },
+    "compound": {
+      "ru": "Тесто - мука пшеничная в/с, растительное масло, соль, вода. Начинка - говядина, лук, растительное масло, соль пищевая, специи.",
+      "uz": "Xamir - tayyor bug'doy uni, o'simlik yog'i, tuz, suv. Nachinka - mol go'shti, piyoz, o'simlik yog'i, ovqat tuzi, ziravorlar.",
+      "en": "Dough: premium wheat flour, vegetable oil, salt, water. Filling: beef, onion, vegetable oil, table salt, spices."
+    },
+    "energy_value": "320",
+    "nutritional_value": {
+      "ru": "белков - 12 г, углеводов - 25 г, жиров - 18 г.",
+      "uz": "oqsillar - 12 g, uglevodlar - 25 g, yog'lar - 18 g.",
+      "en": "proteins - 12 g, carbohydrates - 25 g, fats - 18 g."
+    }
+  },
+  {
+    "id": 28,
+    "id_type": 14,
+    "name": {
+      "ru": "Сыр с зеленью",
+      "uz": "Pishloq va ko‘kat bilan",
+      "en": "Cheese with herbs"
+    },
+    "type": {
+      "ru": "Чебуреки",
+      "uz": "Chibureklar",
+      "en": "Chebureki"
+    },
+    "info": {
+      "ru": "Твердый сыр",
+      "uz": "Qattiq pishloq",
+      "en": "Hard cheese"
+    },
+    "img": "28.png",
+    "count": 24,
+    "weight": [
+      65
+    ],
+    "pack": {
+      "list": [
+        {
+          "type": {
+            "ru": "Коробка",
+            "uz": "Quti",
+            "en": "Box"
+          },
+          "weight_big": 1.5,
+          "inbox": 40
+        }
+      ]
+    },
+    "compound": {
+      "ru": "Тесто - мука пшеничная в/с, растительное масло, соль, вода. Начинка - зелень, сыр, лук, растительное масло, соль пищевая, специи.",
+      "uz": "Xamir - tayyor bug'doy uni, o'simlik yog'i, tuz, suv. Nachinka - ko'kat, pishloq, piyoz, o'simlik yog'i, ovqat tuzi, ziravorlar.",
+      "en": "Dough: premium wheat flour, vegetable oil, salt, water. Filling: herbs, cheese, onion, vegetable oil, table salt, spices."
+    },
+    "energy_value": "310",
+    "nutritional_value": {
+      "ru": "белков - 10 г, углеводов - 27 г, жиров - 17 г.",
+      "uz": "oqsillar - 10 g, uglevodlar - 27 g, yog'lar - 17 g.",
+      "en": "proteins - 10 g, carbohydrates - 27 g, fats - 17 g."
+    }
+  },
+  {
+    "id": 29,
+    "id_type": 28,
+    "name": {
+      "ru": "Фрикадельки",
+      "uz": "Frikadelkalar",
+      "en": "Meatballs"
+    },
+    "info": {
+      "ru": "100% говядина",
+      "uz": "100% mol go'shti",
+      "en": "100% beef"
+    },
+    "count": 20,
+    "img": "28.png",
+    "weight": [
+      10
+    ],
+    "pack": {
+      "list": [
+        {
+          "type": {
+            "uz": "Qadoq",
+            "ru": "Упаковка",
+            "en": "Package"
+          },
+          "weight": 200,
+          "inpack": 20,
+          "in_container": 6,
+          "box_weight": 1.2
+        }
+      ]
+    },
+    "compound": {
+      "ru": "Мясо говядины, лук, чеснок, подсолнечное масло, хлеб, яйца, соль, специи.",
+      "uz": "Mol go'shti, piyoz, sarimsoq, kungaboqar yog'i, non, tuxum, tuz, ziravorlar.",
+      "en": "Beef, onion, garlic, sunflower oil, bread, eggs, salt, spices."
+    },
+    "energy_value": "161.1",
+    "nutritional_value": {
+      "ru": "белков 13,7 г., углеводов 5,9 г, жиров - 9,4 г.",
+      "uz": "oqsillar - 13,7 g, uglevodlar - 5,9 g, yog'lar - 9,4 g.",
+      "en": "proteins - 13.7 g, carbohydrates - 5.9 g, fats - 9.4 g."
+    }
+  },
+  {
+    "id": 30,
+    "id_type": 26,
+    "name": {
+      "ru": "Говяжьи",
+      "uz": "Mol go‘shti",
+      "en": "Beef"
+    },
+    "type": {
+      "ru": "Котлеты",
+      "uz": "Kotletlar",
+      "en": "Cutlets"
+    },
+    "info": {
+      "ru": "100% говядина",
+      "uz": "100% mol go'shti",
+      "en": "100% beef"
+    },
+    "count": 4,
+    "img": "29.png",
+    "weight": [
+      75
+    ],
+    "pack": {
+      "list": [
+        {
+          "type": {
+            "uz": "Qadoq",
+            "ru": "Упаковка",
+            "en": "Package"
+          },
+          "weight": 300,
+          "inpack": 4,
+          "in_container": 6,
+          "box_weight": 1.8
+        }
+      ]
+    }
+  },
+  {
+    "id": 31,
+    "id_type": 29,
+    "name": {
+      "ru": "Перцы фаршированные",
+      "uz": "Go'shtli qalampir",
+      "en": "Stuffed peppers"
+    },
+    "info": {
+      "ru": "100% говядина",
+      "uz": "100% mol go'shti",
+      "en": "100% beef"
+    },
+    "img": "30.png",
+    "weight": [
+      500
+    ],
+    "pack": {
+      "list": [
+        {
+          "type": {
+            "uz": "Qadoq",
+            "ru": "Упаковка",
+            "en": "Package"
+          },
+          "weight": 500,
+          "in_container": 6,
+          "box_weight": 3
+        }
+      ]
+    }
+  },
+  {
+    "id": 32,
+    "id_type": 27,
+    "name": {
+      "ru": "Куриные",
+      "uz": "Tovuq go‘shti",
+      "en": "Chicken"
+    },
+    "type": {
+      "ru": "Котлеты",
+      "uz": "Kotletlar",
+      "en": "Cutlets"
+    },
+    "info": {
+      "ru": "100% куриное филе",
+      "uz": "100% tovuq filesi",
+      "en": "100% chicken fillet"
+    },
+    "count": 4,
+    "img": "31.png",
+    "weight": [
+      75
+    ],
+    "pack": {
+      "list": [
+        {
+          "type": {
+            "uz": "Qadoq",
+            "ru": "Упаковка",
+            "en": "Package"
+          },
+          "weight": 300,
+          "inpack": 4,
+          "in_container": 6,
+          "box_weight": 1.8
+        }
+      ]
+    }
+  },
+  {
+    "id": 33,
+    "id_type": 31,
+    "name": {
+      "ru": "Голубцы",
+      "uz": "Gulubtsi",
+      "en": "Stuffed cabbage rolls"
+    },
+    "info": {
+      "ru": "100% говядина",
+      "uz": "100% mol go'shti",
+      "en": "100% beef"
+    },
+    "img": "32.png",
+    "count": 8,
+    "weight": [
+      65
+    ],
+    "pack": {
+      "list": [
+        {
+          "type": {
+            "uz": "Qadoq",
+            "ru": "Упаковка",
+            "en": "Package"
+          },
+          "weight": 500,
+          "inpack": 8,
+          "in_container": 6,
+          "box_weight": 3
+        }
+      ]
+    }
+  },
+  {
+    "id": 34,
+    "id_type": 32,
+    "name": {
+      "ru": "Долма",
+      "uz": "Dolma",
+      "en": "Dolma"
+    },
+    "info": {
+      "ru": "100% говядина",
+      "uz": "100% mol go'shti",
+      "en": "100% beef"
+    },
+    "img": "33.png",
+    "count": 12,
+    "weight": [
+      23
+    ],
+    "pack": {
+      "list": [
+        {
+          "type": {
+            "uz": "Qadoq",
+            "ru": "Упаковка",
+            "en": "Package"
+          },
+          "weight": 270,
+          "inpack": 12,
+          "in_container": 6,
+          "box_weight": 1.6
+        }
+      ]
+    }
+  }
+]
