@@ -2,22 +2,25 @@ const {Router} = require('express')
 const catalogRoutes = Router()
 
 catalogRoutes.get('/catalog/uz', (req, res) => {
-    res.render('catalog_uz', {
+    res.render('catalog/catalog_uz', {
       lang: "uz",
-      route: "catalog/"
+      route: "catalog/",
+      title: "Katalog"
      });
   });
 
   catalogRoutes.get('/catalog/en', (req, res) => {
-    res.render('catalog_en', {
+    res.render('catalog/catalog_en', {
       lang: "en",
-      route: "catalog/"
+      route: "catalog/",
+      title: "Catalog"
      });
   });
   catalogRoutes.get('/catalog/ru', (req, res) => {
-    res.render('catalog_ru', {
+    res.render('catalog/catalog_ru', {
       lang: "ru",
-      route: "catalog/"
+      route: "catalog/",
+      title: "Каталог"
      });
   });
 
