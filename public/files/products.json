@@ -18,6 +18,7 @@
       "en": "256 layers"
     },
     "img": "1.png",
+    "count": 1,
     "weight": [
       500,
       1000
@@ -63,6 +64,7 @@
   {
     "id": 2,
     "id_type": 2,
+    "count": 1,
     "name": {
       "uz": "Xamirturushli qatlama",
       "ru": "Слоёное дрожжевое",
@@ -124,6 +126,7 @@
   {
     "id": 3,
     "id_type": 3,
+    "count": 1,
     "img": "no_photo.png",
     "name": {
       "uz": "Sloyenoye sariyog'da",
@@ -173,6 +176,7 @@
   {
     "id": 4,
     "id_type": 5,
+    "count": 1,
     "name": {
       "uz": "Samsa uchun sloyenoye",
       "ru": "Слоёное для самсы",
@@ -261,6 +265,7 @@
   {
     "id": 6,
     "id_type": 4,
+    "count": 1,
     "name": {
       "uz": "Xamirturushli boy xamir",
       "ru": "Сдобное дрожжевое",
@@ -360,6 +365,7 @@
   {
     "id": 8,
     "id_type": 6,
+    "count": 1,
     "img": "no_photo.png",
     "name": {
       "uz": "Qumloq xamir",
