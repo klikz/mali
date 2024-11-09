@@ -1,0 +1,331 @@
+<div class="wrapper detail-wrapper">
+    {{> en/nav}}
+    <div class="detail">
+        <div class="container">
+            <div class="detail__header">
+                <button class="detail__header-back button-other" type="button" id="goBackButton"><svg width="30"
+                        height="30" viewBox="0 0 30 30" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <rect width="30" height="30" fill="currentColor" />
+                        <mask id="mask0_25_3879" style="mask-type:alpha" maskUnits="userSpaceOnUse" x="5" y="5"
+                            width="20" height="20">
+                            <rect x="5" y="5" width="20" height="20" fill="#D9D9D9" />
+                        </mask>
+                        <g mask="url(#mask0_25_3879)">
+                            <path
+                                d="M11.8333 15L17.7083 20.875C17.9028 21.0695 18 21.3056 18 21.5833C18 21.8611 17.9028 22.0972 17.7083 22.2917C17.5139 22.4861 17.2778 22.5833 17 22.5833C16.7222 22.5833 16.4861 22.4861 16.2917 22.2917L10.0625 16.0625C9.90972 15.9097 9.79861 15.7431 9.72917 15.5625C9.65972 15.382 9.625 15.1945 9.625 15C9.625 14.8056 9.65972 14.6181 9.72917 14.4375C9.79861 14.257 9.90972 14.0903 10.0625 13.9375L16.2917 7.70834C16.4861 7.5139 16.7222 7.41668 17 7.41668C17.2778 7.41668 17.5139 7.5139 17.7083 7.70834C17.9028 7.90279 18 8.1389 18 8.41668C18 8.69445 17.9028 8.93056 17.7083 9.12501L11.8333 15Z"
+                                fill="white" />
+                        </g>
+                    </svg>
+                    <h3>Back</h3>
+                </button>
+                <button class="button-mini" type="button" onclick="shareURL()">
+                    <h3>Share</h3><svg width="20" height="20" viewBox="0 0 20 20" fill="none"
+                        xmlns="http://www.w3.org/2000/svg">
+                        <mask id="mask0_25_4284" style="mask-type:alpha" maskUnits="userSpaceOnUse" x="0" y="0"
+                            width="20" height="20">
+                            <rect width="20" height="20" fill="currentColor" />
+                        </mask>
+                        <g mask="url(#mask0_25_4284)">
+                            <path
+                                d="M13.5 18C12.8056 18 12.2153 17.7569 11.7292 17.2708C11.2431 16.7847 11 16.1944 11 15.5C11 15.375 11.0278 15.1736 11.0833 14.8958L6.14583 11.875C5.92361 12.0694 5.67326 12.2222 5.39479 12.3333C5.11646 12.4444 4.81819 12.5 4.5 12.5C3.80556 12.5 3.21528 12.2569 2.72917 11.7708C2.24306 11.2847 2 10.6944 2 10C2 9.30556 2.24306 8.71528 2.72917 8.22917C3.21528 7.74306 3.80556 7.5 4.5 7.5C4.81944 7.5 5.11806 7.55556 5.39583 7.66667C5.67361 7.77778 5.92361 7.93056 6.14583 8.125L11.0833 5.10417C11.0556 5.00694 11.0347 4.91104 11.0208 4.81646C11.0069 4.72188 11 4.61639 11 4.5C11 3.80556 11.2431 3.21528 11.7292 2.72917C12.2153 2.24306 12.8056 2 13.5 2C14.1944 2 14.7847 2.24306 15.2708 2.72917C15.7569 3.21528 16 3.80556 16 4.5C16 5.19444 15.7569 5.78472 15.2708 6.27083C14.7847 6.75694 14.1944 7 13.5 7C13.1806 7 12.8819 6.94444 12.6042 6.83333C12.3264 6.72222 12.0764 6.56944 11.8542 6.375L6.91667 9.39583C6.94444 9.49306 6.96528 9.58896 6.97917 9.68354C6.99306 9.77813 7 9.88361 7 10C7 10.1164 6.99306 10.2219 6.97917 10.3165C6.96528 10.411 6.94444 10.5069 6.91667 10.6042L11.8542 13.625C12.0764 13.4306 12.3267 13.2778 12.6052 13.1667C12.8835 13.0556 13.1818 13 13.5 13C14.1944 13 14.7847 13.2431 15.2708 13.7292C15.7569 14.2153 16 14.8056 16 15.5C16 16.1944 15.7569 16.7847 15.2708 17.2708C14.7847 17.7569 14.1944 18 13.5 18ZM13.5 16.5C13.7833 16.5 14.0208 16.4042 14.2125 16.2125C14.4042 16.0208 14.5 15.7833 14.5 15.5C14.5 15.2167 14.4042 14.9792 14.2125 14.7875C14.0208 14.5958 13.7833 14.5 13.5 14.5C13.2167 14.5 12.9792 14.5958 12.7875 14.7875C12.5958 14.9792 12.5 15.2167 12.5 15.5C12.5 15.7833 12.5958 16.0208 12.7875 16.2125C12.9792 16.4042 13.2167 16.5 13.5 16.5ZM4.5 11C4.78333 11 5.02083 10.9042 5.2125 10.7125C5.40417 10.5208 5.5 10.2833 5.5 10C5.5 9.71667 5.40417 9.47917 5.2125 9.2875C5.02083 9.09583 4.78333 9 4.5 9C4.21667 9 3.97917 9.09583 3.7875 9.2875C3.59583 9.47917 3.5 9.71667 3.5 10C3.5 10.2833 3.59583 10.5208 3.7875 10.7125C3.97917 10.9042 4.21667 11 4.5 11ZM13.5 5.5C13.7833 5.5 14.0208 5.40417 14.2125 5.2125C14.4042 5.02083 14.5 4.78333 14.5 4.5C14.5 4.21667 14.4042 3.97917 14.2125 3.7875C14.0208 3.59583 13.7833 3.5 13.5 3.5C13.2167 3.5 12.9792 3.59583 12.7875 3.7875C12.5958 3.97917 12.5 4.21667 12.5 4.5C12.5 4.78333 12.5958 5.02083 12.7875 5.2125C12.9792 5.40417 13.2167 5.5 13.5 5.5Z"
+                                fill="currentColor" />
+                        </g>
+                    </svg>
+                </button>
+            </div>
+            <div class="detail__content">
+                <div class="detail__item-img">
+                    <div class="detail__img-main"> <img src="/" alt="product"></div>
+                    <div class="detail__img-list">
+                        <div class="detail__img-item"> <img src="/" alt="product"></div>
+                    </div>
+                </div>
+                <div class="detail__item-box">
+                    <h4 class="detail__item-type"> </h4>
+                    <h2 class="detail__item-name"> </h2>
+                    <h3 class="detail__item-info"> </h3>
+                    <div class="detail__img-main mob"><img src="/" alt="product"></div>
+                    <ul class="detail__options"> </ul>
+                    <div class="detail__item-btns">
+                        <button class="button" type="button">request co</button>
+                        <a class="button-other" type="button" href="/files/mali_calalog.pdf">
+                            <h3>Download catalog</h3><svg width="30" height="30" viewBox="0 0 30 30" fill="none"
+                                xmlns="http://www.w3.org/2000/svg">
+                                <rect width="30" height="30" fill="currentColor" />
+                                <mask id="mask0_55_2660" style="mask-type:alpha" maskUnits="userSpaceOnUse" x="5" y="5"
+                                    width="20" height="20">
+                                    <rect x="5" y="5" width="20" height="20" fill="#D9D9D9" />
+                                </mask>
+                                <g mask="url(#mask0_55_2660)">
+                                    <path
+                                        d="M11 19H17V17.5H11V19ZM11 15.75H19V14.25H11V15.75ZM11 12.5H19V11H11V12.5ZM9.5 22C9.0875 22 8.73437 21.8531 8.44062 21.5594C8.14687 21.2656 8 20.9125 8 20.5V9.5C8 9.0875 8.14687 8.73438 8.44062 8.44063C8.73437 8.14688 9.0875 8 9.5 8H20.5C20.9125 8 21.2656 8.14688 21.5594 8.44063C21.8531 8.73438 22 9.0875 22 9.5V20.5C22 20.9125 21.8531 21.2656 21.5594 21.5594C21.2656 21.8531 20.9125 22 20.5 22H9.5ZM9.5 20.5H20.5V9.5H9.5V20.5Z"
+                                        fill="white" />
+                                </g>
+                            </svg>
+                        </a>
+                    </div>
+                    <div class="detail__info">
+                        <div class="detail__info-item compound">
+                            <div class="detail__info-btn">
+                                <h3>Compound</h3><svg width="20" height="20" viewBox="0 0 20 20" fill="none"
+                                    xmlns="http://www.w3.org/2000/svg">
+                                    <mask id="mask0_55_2665" style="mask-type:alpha" maskUnits="userSpaceOnUse" x="0"
+                                        y="0" width="20" height="20">
+                                        <rect width="20" height="20" fill="#D9D9D9" />
+                                    </mask>
+                                    <g mask="url(#mask0_55_2665)">
+                                        <path
+                                            d="M9.99595 12.75C9.89595 12.75 9.8022 12.7326 9.7147 12.6979C9.6272 12.6632 9.54873 12.6111 9.47928 12.5417L5.52803 8.59041C5.37053 8.43291 5.29525 8.25346 5.3022 8.05207C5.30914 7.85068 5.389 7.6736 5.54178 7.52082C5.69456 7.36805 5.87164 7.29166 6.07303 7.29166C6.27442 7.29166 6.4515 7.36805 6.60428 7.52082L10.0001 10.9375L13.4168 7.52082C13.5696 7.36805 13.7466 7.29513 13.948 7.30207C14.1494 7.30902 14.3265 7.38888 14.4793 7.54166C14.6321 7.69443 14.7084 7.87152 14.7084 8.07291C14.7084 8.2743 14.6297 8.45332 14.4722 8.60999L10.5209 12.5417C10.4459 12.6111 10.3647 12.6632 10.2772 12.6979C10.1897 12.7326 10.0959 12.75 9.99595 12.75Z"
+                                            fill="black" />
+                                    </g>
+                                </svg>
+                            </div>
+                            <div class="detail__info-content">
+                                <p> </p>
+                            </div>
+                        </div>
+                        <div class="detail__info-item energy_value">
+                            <div class="detail__info-btn">
+                                <h3>Energy value</h3><svg width="20" height="20" viewBox="0 0 20 20" fill="none"
+                                    xmlns="http://www.w3.org/2000/svg">
+                                    <mask id="mask0_55_2665" style="mask-type:alpha" maskUnits="userSpaceOnUse" x="0"
+                                        y="0" width="20" height="20">
+                                        <rect width="20" height="20" fill="#D9D9D9" />
+                                    </mask>
+                                    <g mask="url(#mask0_55_2665)">
+                                        <path
+                                            d="M9.99595 12.75C9.89595 12.75 9.8022 12.7326 9.7147 12.6979C9.6272 12.6632 9.54873 12.6111 9.47928 12.5417L5.52803 8.59041C5.37053 8.43291 5.29525 8.25346 5.3022 8.05207C5.30914 7.85068 5.389 7.6736 5.54178 7.52082C5.69456 7.36805 5.87164 7.29166 6.07303 7.29166C6.27442 7.29166 6.4515 7.36805 6.60428 7.52082L10.0001 10.9375L13.4168 7.52082C13.5696 7.36805 13.7466 7.29513 13.948 7.30207C14.1494 7.30902 14.3265 7.38888 14.4793 7.54166C14.6321 7.69443 14.7084 7.87152 14.7084 8.07291C14.7084 8.2743 14.6297 8.45332 14.4722 8.60999L10.5209 12.5417C10.4459 12.6111 10.3647 12.6632 10.2772 12.6979C10.1897 12.7326 10.0959 12.75 9.99595 12.75Z"
+                                            fill="black" />
+                                    </g>
+                                </svg>
+                            </div>
+                            <div class="detail__info-content">
+                                <p> </p>
+                            </div>
+                        </div>
+                        <div class="detail__info-item nutritional_value">
+                            <div class="detail__info-btn">
+                                <h3>Nutritional value per 100g of product</h3><svg width="20" height="20"
+                                    viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                    <mask id="mask0_55_2665" style="mask-type:alpha" maskUnits="userSpaceOnUse" x="0"
+                                        y="0" width="20" height="20">
+                                        <rect width="20" height="20" fill="#D9D9D9" />
+                                    </mask>
+                                    <g mask="url(#mask0_55_2665)">
+                                        <path
+                                            d="M9.99595 12.75C9.89595 12.75 9.8022 12.7326 9.7147 12.6979C9.6272 12.6632 9.54873 12.6111 9.47928 12.5417L5.52803 8.59041C5.37053 8.43291 5.29525 8.25346 5.3022 8.05207C5.30914 7.85068 5.389 7.6736 5.54178 7.52082C5.69456 7.36805 5.87164 7.29166 6.07303 7.29166C6.27442 7.29166 6.4515 7.36805 6.60428 7.52082L10.0001 10.9375L13.4168 7.52082C13.5696 7.36805 13.7466 7.29513 13.948 7.30207C14.1494 7.30902 14.3265 7.38888 14.4793 7.54166C14.6321 7.69443 14.7084 7.87152 14.7084 8.07291C14.7084 8.2743 14.6297 8.45332 14.4722 8.60999L10.5209 12.5417C10.4459 12.6111 10.3647 12.6632 10.2772 12.6979C10.1897 12.7326 10.0959 12.75 9.99595 12.75Z"
+                                            fill="black" />
+                                    </g>
+                                </svg>
+                            </div>
+                            <div class="detail__info-content">
+                                <p> </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="detail__options-box">
+            <ul class="detail__options mob"></ul>
+        </div>
+        <div class="container">
+            <div class="detail__item-btns mob">
+                <button class="button" type="button">request co</button>
+                <button class="button-other" type="button">
+                    <h3>Download catalog</h3><svg width="30" height="30" viewBox="0 0 30 30" fill="none"
+                        xmlns="http://www.w3.org/2000/svg">
+                        <rect width="30" height="30" fill="#E80029" />
+                        <mask id="mask0_55_2660" style="mask-type:alpha" maskUnits="userSpaceOnUse" x="5" y="5"
+                            width="20" height="20">
+                            <rect x="5" y="5" width="20" height="20" fill="#D9D9D9" />
+                        </mask>
+                        <g mask="url(#mask0_55_2660)">
+                            <path
+                                d="M11 19H17V17.5H11V19ZM11 15.75H19V14.25H11V15.75ZM11 12.5H19V11H11V12.5ZM9.5 22C9.0875 22 8.73437 21.8531 8.44062 21.5594C8.14687 21.2656 8 20.9125 8 20.5V9.5C8 9.0875 8.14687 8.73438 8.44062 8.44063C8.73437 8.14688 9.0875 8 9.5 8H20.5C20.9125 8 21.2656 8.14688 21.5594 8.44063C21.8531 8.73438 22 9.0875 22 9.5V20.5C22 20.9125 21.8531 21.2656 21.5594 21.5594C21.2656 21.8531 20.9125 22 20.5 22H9.5ZM9.5 20.5H20.5V9.5H9.5V20.5Z"
+                                fill="white" />
+                        </g>
+                    </svg>
+                </button>
+            </div>
+            <div class="detail__info mob">
+                <div class="detail__info-item compound">
+                    <div class="detail__info-btn">
+                        <h3>Compound</h3><svg width="20" height="20" viewBox="0 0 20 20" fill="none"
+                            xmlns="http://www.w3.org/2000/svg">
+                            <mask id="mask0_55_2665" style="mask-type:alpha" maskUnits="userSpaceOnUse" x="0" y="0"
+                                width="20" height="20">
+                                <rect width="20" height="20" fill="#D9D9D9" />
+                            </mask>
+                            <g mask="url(#mask0_55_2665)">
+                                <path
+                                    d="M9.99595 12.75C9.89595 12.75 9.8022 12.7326 9.7147 12.6979C9.6272 12.6632 9.54873 12.6111 9.47928 12.5417L5.52803 8.59041C5.37053 8.43291 5.29525 8.25346 5.3022 8.05207C5.30914 7.85068 5.389 7.6736 5.54178 7.52082C5.69456 7.36805 5.87164 7.29166 6.07303 7.29166C6.27442 7.29166 6.4515 7.36805 6.60428 7.52082L10.0001 10.9375L13.4168 7.52082C13.5696 7.36805 13.7466 7.29513 13.948 7.30207C14.1494 7.30902 14.3265 7.38888 14.4793 7.54166C14.6321 7.69443 14.7084 7.87152 14.7084 8.07291C14.7084 8.2743 14.6297 8.45332 14.4722 8.60999L10.5209 12.5417C10.4459 12.6111 10.3647 12.6632 10.2772 12.6979C10.1897 12.7326 10.0959 12.75 9.99595 12.75Z"
+                                    fill="black" />
+                            </g>
+                        </svg>
+                    </div>
+                    <div class="detail__info-content">
+                        <p> </p>
+                    </div>
+                </div>
+                <div class="detail__info-item energy_value">
+                    <div class="detail__info-btn">
+                        <h3>Energy value</h3><svg width="20" height="20" viewBox="0 0 20 20" fill="none"
+                            xmlns="http://www.w3.org/2000/svg">
+                            <mask id="mask0_55_2665" style="mask-type:alpha" maskUnits="userSpaceOnUse" x="0" y="0"
+                                width="20" height="20">
+                                <rect width="20" height="20" fill="#D9D9D9" />
+                            </mask>
+                            <g mask="url(#mask0_55_2665)">
+                                <path
+                                    d="M9.99595 12.75C9.89595 12.75 9.8022 12.7326 9.7147 12.6979C9.6272 12.6632 9.54873 12.6111 9.47928 12.5417L5.52803 8.59041C5.37053 8.43291 5.29525 8.25346 5.3022 8.05207C5.30914 7.85068 5.389 7.6736 5.54178 7.52082C5.69456 7.36805 5.87164 7.29166 6.07303 7.29166C6.27442 7.29166 6.4515 7.36805 6.60428 7.52082L10.0001 10.9375L13.4168 7.52082C13.5696 7.36805 13.7466 7.29513 13.948 7.30207C14.1494 7.30902 14.3265 7.38888 14.4793 7.54166C14.6321 7.69443 14.7084 7.87152 14.7084 8.07291C14.7084 8.2743 14.6297 8.45332 14.4722 8.60999L10.5209 12.5417C10.4459 12.6111 10.3647 12.6632 10.2772 12.6979C10.1897 12.7326 10.0959 12.75 9.99595 12.75Z"
+                                    fill="black" />
+                            </g>
+                        </svg>
+                    </div>
+                    <div class="detail__info-content">
+                        <p> </p>
+                    </div>
+                </div>
+                <div class="detail__info-item nutritional_value">
+                    <div class="detail__info-btn">
+                        <h3>Nutritional value per 100g of product</h3><svg width="20" height="20" viewBox="0 0 20 20"
+                            fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <mask id="mask0_55_2665" style="mask-type:alpha" maskUnits="userSpaceOnUse" x="0" y="0"
+                                width="20" height="20">
+                                <rect width="20" height="20" fill="#D9D9D9" />
+                            </mask>
+                            <g mask="url(#mask0_55_2665)">
+                                <path
+                                    d="M9.99595 12.75C9.89595 12.75 9.8022 12.7326 9.7147 12.6979C9.6272 12.6632 9.54873 12.6111 9.47928 12.5417L5.52803 8.59041C5.37053 8.43291 5.29525 8.25346 5.3022 8.05207C5.30914 7.85068 5.389 7.6736 5.54178 7.52082C5.69456 7.36805 5.87164 7.29166 6.07303 7.29166C6.27442 7.29166 6.4515 7.36805 6.60428 7.52082L10.0001 10.9375L13.4168 7.52082C13.5696 7.36805 13.7466 7.29513 13.948 7.30207C14.1494 7.30902 14.3265 7.38888 14.4793 7.54166C14.6321 7.69443 14.7084 7.87152 14.7084 8.07291C14.7084 8.2743 14.6297 8.45332 14.4722 8.60999L10.5209 12.5417C10.4459 12.6111 10.3647 12.6632 10.2772 12.6979C10.1897 12.7326 10.0959 12.75 9.99595 12.75Z"
+                                    fill="black" />
+                            </g>
+                        </svg>
+                    </div>
+                    <div class="detail__info-content">
+                        <p> </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <section class="program" id="program">
+        <div class="program-item first"><img src="/img/pelmeni/item1.png" alt="item" draggable="false"></div>
+        <div class="program-item second"><img src="/img/pelmeni/item2.png" alt="item" draggable="false"></div>
+        <div class="program-wrapper">
+            <div class="program-left">
+                <h3 class="program-title">Partnership Program</h3>
+                <p class="program-text">Mali actively cooperates with leading retailers and representatives of the
+                    HoReCa industry, such as:</p>
+                <div class="program__left-box">
+                    <ul class="program__list">
+                        <li class="program__list-item first"> <img src="/img/partners/el1.png" alt="partner"><img
+                                class="inner" src="/img/partners/el3.png" alt="partner"></li>
+                        <li class="program__list-item second"><img src="/img/partners/el2.png" alt="partner"><img
+                                class="inner" src="/img/partners/el4.png" alt="partner"></li>
+                    </ul><a class="button-other white" href="/catalog/en">
+                        <h3>All Products</h3><svg width="30" height="30" viewBox="0 0 30 30" fill="none"
+                            xmlns="http://www.w3.org/2000/svg">
+                            <rect width="30" height="30" fill="white" />
+                            <mask id="mask0_102_779" style="mask-type:alpha" maskUnits="userSpaceOnUse" x="5" y="5"
+                                width="20" height="20">
+                                <rect x="5" y="5" width="20" height="20" fill="#D9D9D9" />
+                            </mask>
+                            <g mask="url(#mask0_102_779)">
+                                <path
+                                    d="M18.125 15.75H9V14.25H18.125L13.9375 10.0625L15 9L21 15L15 21L13.9375 19.9375L18.125 15.75Z"
+                                    fill="#E80029" />
+                            </g>
+                        </svg>
+                    </a>
+                </div>
+            </div>
+            <div class="program__right">
+                <h3 class="program__right-title">Fill out the application to participate in the program</h3>
+                <p class="program__right-text"> and receive exclusive partnership conditions, including specialized
+                    product lines and marketing support</p>
+                <div class="program__right-bottom"><a class="button-other" href="#">
+                        {{!-- <h3>Presentation</h3>
+                        <svg width="30" height="30" viewBox="0 0 30 30" fill="none"
+                            xmlns="http://www.w3.org/2000/svg">
+                            <rect width="30" height="30" fill="currentColor" />
+                            <mask id="mask0_102_791" style="mask-type:alpha" maskUnits="userSpaceOnUse" x="5" y="5"
+                                width="20" height="20">
+                                <rect x="5" y="5" width="20" height="20" fill="#D9D9D9" />
+                            </mask>
+                            <g mask="url(#mask0_102_791)">
+                                <path
+                                    d="M11 19H17V17.5H11V19ZM11 15.75H19V14.25H11V15.75ZM11 12.5H19V11H11V12.5ZM9.5 22C9.0875 22 8.73437 21.8531 8.44062 21.5594C8.14687 21.2656 8 20.9125 8 20.5V9.5C8 9.0875 8.14687 8.73438 8.44062 8.44063C8.73437 8.14688 9.0875 8 9.5 8H20.5C20.9125 8 21.2656 8.14688 21.5594 8.44063C21.8531 8.73438 22 9.0875 22 9.5V20.5C22 20.9125 21.8531 21.2656 21.5594 21.5594C21.2656 21.8531 20.9125 22 20.5 22H9.5ZM9.5 20.5H20.5V9.5H9.5V20.5Z"
+                                    fill="white" />
+                            </g>
+                        </svg> --}}
+                    </a><a class="button" href="#">fill application</a></div>
+            </div>
+        </div>
+    </section>
+    <section class="call">
+        <div class="call-wrapper">
+            <h3 class="call-title">Call us if you have any questions</h3>
+            <div class="call-item">
+                <svg width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <mask id="mask0_55_2076" style="mask-type:alpha" maskUnits="userSpaceOnUse" x="0" y="0" width="20"
+                        height="20">
+                        <rect width="20" height="20" fill="#D9D9D9" />
+                    </mask>
+                    <g mask="url(#mask0_55_2076)">
+                        <path
+                            d="M2.89579 16.8958L1.24995 15.2292C1.05551 15.0347 0.954813 14.8021 0.947869 14.5312C0.940925 14.2604 1.03467 14.0278 1.22912 13.8333C2.32634 12.6528 3.62495 11.7188 5.12495 11.0312C6.62495 10.3438 8.24995 10 9.99995 10C11.75 10 13.375 10.3438 14.875 11.0312C16.375 11.7188 17.6736 12.6528 18.7708 13.8333C18.9652 14.0278 19.059 14.2604 19.052 14.5312C19.0451 14.8021 18.9444 15.0347 18.75 15.2292L17.1041 16.8958C16.9513 17.0486 16.7569 17.1458 16.5208 17.1875C16.2847 17.2292 16.0486 17.1667 15.8125 17L13.4166 15.2917C13.2916 15.1944 13.1909 15.0729 13.1145 14.9271C13.0381 14.7813 13 14.6344 13 14.4865V11.9583C12.5138 11.8056 12.0226 11.691 11.5262 11.6146C11.0298 11.5382 10.5211 11.5 9.99995 11.5C9.47884 11.5 8.97009 11.5382 8.4737 11.6146C7.97731 11.691 7.48606 11.8056 6.99995 11.9583V14.4865C6.99995 14.6344 6.96176 14.7813 6.88537 14.9271C6.80898 15.0729 6.70829 15.1944 6.58329 15.2917L4.18745 17C3.95134 17.1667 3.71176 17.2257 3.4687 17.1771C3.22565 17.1285 3.03467 17.0347 2.89579 16.8958ZM5.49995 12.3542C4.98606 12.6042 4.48954 12.9028 4.01037 13.25C3.5312 13.5972 3.07634 13.9722 2.64579 14.375L3.66662 15.3958L5.49995 14.0833V12.3542ZM14.5 12.3542V14.0833L16.3333 15.3958L17.3541 14.375C16.9236 13.9583 16.4722 13.5799 16 13.2396C15.5277 12.8993 15.0277 12.6042 14.5 12.3542ZM9.24995 6V2H10.75V6H9.24995ZM14.4375 8.22917L13.375 7.16667L16.2083 4.33333L17.2708 5.39583L14.4375 8.22917ZM5.56245 8.22917L2.72912 5.39583L3.79162 4.33333L6.62495 7.16667L5.56245 8.22917Z"
+                            fill="white" />
+                    </g>
+                </svg>
+                <h3>+998 71 200 30 05</h3>
+            </div><a class="button other" href="tel:+998712003005">callback</a>
+        </div>
+    </section>
+    <div class="container detail-product">
+        <div class="product">
+            <div class="product-header">
+                <h3 class="product-title">Popular</h3>
+                <div class="product__btns">
+                    <button class="product__btns-item left" type="button"><svg width="20" height="20"
+                            viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <mask id="mask0_102_5" style="mask-type:alpha" maskUnits="userSpaceOnUse" x="0" y="0"
+                                width="20" height="20">
+                                <rect width="20" height="20" fill="#D9D9D9" />
+                            </mask>
+                            <g mask="url(#mask0_102_5)">
+                                <path
+                                    d="M6.83333 10L12.7083 15.875C12.9028 16.0695 13 16.3056 13 16.5834C13 16.8612 12.9028 17.0973 12.7083 17.2917C12.5139 17.4862 12.2778 17.5834 12 17.5834C11.7222 17.5834 11.4861 17.4862 11.2917 17.2917L5.0625 11.0625C4.90972 10.9098 4.79861 10.7431 4.72917 10.5625C4.65972 10.382 4.625 10.1945 4.625 10C4.625 9.8056 4.65972 9.61809 4.72917 9.43754C4.79861 9.25698 4.90972 9.09032 5.0625 8.93754L11.2917 2.70837C11.4861 2.51393 11.7222 2.41671 12 2.41671C12.2778 2.41671 12.5139 2.51393 12.7083 2.70837C12.9028 2.90282 13 3.13893 13 3.41671C13 3.69448 12.9028 3.9306 12.7083 4.12504L6.83333 10Z"
+                                    fill="white" />
+                            </g>
+                        </svg>
+                    </button>
+                    <button class="product__btns-item right" type="button"><svg width="20" height="20"
+                            viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <mask id="mask0_102_137" style="mask-type:alpha" maskUnits="userSpaceOnUse" x="0" y="0"
+                                width="20" height="20">
+                                <rect width="20" height="20" fill="#D9D9D9" />
+                            </mask>
+                            <g mask="url(#mask0_102_137)">
+                                <path
+                                    d="M13.1667 9.99996L7.29167 4.12496C7.09722 3.93051 7 3.6944 7 3.41663C7 3.13885 7.09722 2.90274 7.29167 2.70829C7.48611 2.51385 7.72222 2.41663 8 2.41663C8.27778 2.41663 8.51389 2.51385 8.70833 2.70829L14.9375 8.93746C15.0903 9.09024 15.2014 9.2569 15.2708 9.43746C15.3403 9.61801 15.375 9.80551 15.375 9.99996C15.375 10.1944 15.3403 10.3819 15.2708 10.5625C15.2014 10.743 15.0903 10.9097 14.9375 11.0625L8.70833 17.2916C8.51389 17.4861 8.27778 17.5833 8 17.5833C7.72222 17.5833 7.48611 17.4861 7.29167 17.2916C7.09722 17.0972 7 16.8611 7 16.5833C7 16.3055 7.09722 16.0694 7.29167 15.875L13.1667 9.99996Z"
+                                    fill="white" />
+                            </g>
+                        </svg>
+                    </button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="product-slider">
+        <div class="swiper productSwiper">
+            <div class="swiper-wrapper"></div>
+        </div>
+    </div>
+    <div class="container">
+        <div class="product-bottom">
+            <div class="swiper-pagination productSwiperPagination"> </div>
+        </div>
+    </div>
+    {{> en/footer}}
+</div>
