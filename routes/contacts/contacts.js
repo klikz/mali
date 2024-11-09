@@ -18,7 +18,7 @@ contactsRoutes.get('/contact/ru', (req, res) => {
 
 contactsRoutes.get('/contact/en', (req, res) => {
     res.render('contacts/contacts_en', {
-      lang: "ru",
+      lang: "en",
       route: "contact/",
       title: "Contacts"
      });

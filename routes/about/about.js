@@ -18,7 +18,7 @@ aboutRoutes.get('/about/ru', (req, res) => {
 
 aboutRoutes.get('/about/en', (req, res) => {
     res.render('about/about_en', {
-      lang: "ru",
+      lang: "en",
       route: "about/",
       title: "About us"
      });
