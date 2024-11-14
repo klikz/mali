@@ -63,7 +63,7 @@
   },
   {
     "id": 2,
-    "id_type": 2,
+    "id_type": 1,
     "count": 1,
     "name": {
       "uz": "Xamirturushli qatlama",
@@ -125,7 +125,7 @@
   },
   {
     "id": 3,
-    "id_type": 3,
+    "id_type": 1,
     "count": 1,
     "img": "no_photo.png",
     "name": {
@@ -175,7 +175,7 @@
   },
   {
     "id": 4,
-    "id_type": 5,
+    "id_type": 1,
     "count": 1,
     "name": {
       "uz": "Samsa uchun sloyenoye",
@@ -214,7 +214,7 @@
   },
   {
     "id": 5,
-    "id_type": 7,
+    "id_type": 5,
     "name": {
       "uz": "Pitsa uchun",
       "ru": "Для пиццы",
@@ -264,7 +264,7 @@
   },
   {
     "id": 6,
-    "id_type": 4,
+    "id_type": 2,
     "count": 1,
     "name": {
       "uz": "Xamirturushli boy xamir",
@@ -313,8 +313,8 @@
     }
   },
   {
-    "id": 7,
-    "id_type": 8,
+    "id": 4,
+    "id_type": 4,
     "name": {
       "uz": "Klassik",
       "ru": "Классическая",
@@ -363,8 +363,8 @@
     }
   },
   {
-    "id": 8,
-    "id_type": 6,
+    "id": 3,
+    "id_type": 3,
     "count": 1,
     "img": "no_photo.png",
     "name": {
@@ -414,7 +414,7 @@
   },
   {
     "id": 9,
-    "id_type": 9,
+    "id_type": 4,
     "name": {
       "uz": "Piyoz bilan",
       "ru": "С луком",
@@ -464,7 +464,7 @@
   },
   {
     "id": 10,
-    "id_type": 33,
+    "id_type": 14,
     "name": {
       "uz": "Klassik",
       "ru": "Классические",
@@ -514,7 +514,7 @@
   },
   {
     "id": 11,
-    "id_type": 10,
+    "id_type": 6,
     "name": {
       "uz": "Go'sht bilan",
       "ru": "С мясом",
@@ -564,7 +564,7 @@
   },
   {
     "id": 12,
-    "id_type": 34,
+    "id_type": 14,
     "img": "no_photo.png",
     "name": {
       "uz": "Shokolad bilan",
@@ -614,7 +614,7 @@
   },
   {
     "id": 13,
-    "id_type": 11,
+    "id_type": 6,
     "name": {
       "uz": "Tvorog bilan",
       "ru": "С творогом",
@@ -664,7 +664,7 @@
   },
   {
     "id": 14,
-    "id_type": 35,
+    "id_type": 13,
     "name": {
       "ru": "Бельгийские",
       "uz": "Belgiya",
@@ -712,7 +712,7 @@
   },
   {
     "id": 15,
-    "id_type": 12,
+    "id_type": 7,
     "name": {
       "ru": "Сосиски в тесте",
       "uz": "Xamirda sosiskalar",
@@ -755,7 +755,7 @@
   },
   {
     "id": 16,
-    "id_type": 19,
+    "id_type": 11,
     "name": {
       "ru": "С картофелем и луком",
       "uz": "Kartoshka va piyoz bilan",
@@ -804,7 +804,7 @@
   },
   {
     "id": 17,
-    "id_type": 17,
+    "id_type": 10,
     "name": {
       "ru": "С говядиной",
       "uz": "Mol go‘shti bilan",
@@ -854,7 +854,7 @@
   },
   {
     "id": 18,
-    "id_type": 18,
+    "id_type": 10,
     "name": {
       "ru": "С тыквой",
       "uz": "Qovoqli",
@@ -904,7 +904,7 @@
   },
   {
     "id": 19,
-    "id_type": 15,
+    "id_type": 9,
     "name": {
       "ru": "С говядиной",
       "uz": "Mol go‘shti bilan",
@@ -953,7 +953,7 @@
   },
   {
     "id": 20,
-    "id_type": 16,
+    "id_type": 9,
     "name": {
       "ru": "Чучвара",
       "uz": "Chuchvara",
@@ -1002,7 +1002,7 @@
   },
   {
     "id": 21,
-    "id_type": 20,
+    "id_type": 12,
     "name": {
       "ru": "С говядиной",
       "uz": "Mol go‘shti bilan",
@@ -1061,7 +1061,7 @@
   },
   {
     "id": 22,
-    "id_type": 21,
+    "id_type": 12,
     "name": {
       "ru": "С тыквой",
       "uz": "Qovoqli",
@@ -1120,7 +1120,7 @@
   },
   {
     "id": 23,
-    "id_type": 24,
+    "id_type": 12,
     "name": {
       "ru": "С картошкой",
       "uz": "Kartoshkali",
@@ -1168,7 +1168,7 @@
   },
   {
     "id": 24,
-    "id_type": 22,
+    "id_type": 12,
     "name": {
       "ru": "С говядиной и овощами",
       "uz": "Mol go‘shti va sabzavotlar bilan",
@@ -1205,7 +1205,7 @@
   },
   {
     "id": 25,
-    "id_type": 25,
+    "id_type": 12,
     "name": {
       "ru": "С зеленью",
       "uz": "Ko‘katli",
@@ -1242,7 +1242,7 @@
   },
   {
     "id": 26,
-    "id_type": 23,
+    "id_type": 12,
     "name": {
       "ru": "С курицей",
       "uz": "Tovuq go‘shti bilan",
@@ -1290,7 +1290,7 @@
   },
   {
     "id": 27,
-    "id_type": 13,
+    "id_type": 8,
     "name": {
       "ru": "С мясом",
       "uz": "Go‘sht bilan",
@@ -1338,7 +1338,7 @@
   },
   {
     "id": 28,
-    "id_type": 14,
+    "id_type": 8,
     "name": {
       "ru": "Сыр с зеленью",
       "uz": "Pishloq va ko‘kat bilan",
@@ -1354,7 +1354,7 @@
       "uz": "Qattiq pishloq",
       "en": "Hard cheese"
     },
-    "img": "28.png",
+    "img": "no_photo.png",
     "count": 24,
     "weight": [
       65
@@ -1386,7 +1386,7 @@
   },
   {
     "id": 29,
-    "id_type": 28,
+    "id_type": 16,
     "name": {
       "ru": "Фрикадельки",
       "uz": "Frikadelkalar",
@@ -1431,7 +1431,7 @@
   },
   {
     "id": 30,
-    "id_type": 26,
+    "id_type": 15,
     "name": {
       "ru": "Говяжьи",
       "uz": "Mol go‘shti",
@@ -1470,7 +1470,7 @@
   },
   {
     "id": 31,
-    "id_type": 29,
+    "id_type": 17,
     "name": {
       "ru": "Перцы фаршированные",
       "uz": "Go'shtli qalampir",
@@ -1502,7 +1502,7 @@
   },
   {
     "id": 32,
-    "id_type": 27,
+    "id_type": 15,
     "name": {
       "ru": "Куриные",
       "uz": "Tovuq go‘shti",
@@ -1541,7 +1541,7 @@
   },
   {
     "id": 33,
-    "id_type": 31,
+    "id_type": 18,
     "name": {
       "ru": "Голубцы",
       "uz": "Gulubtsi",
@@ -1575,7 +1575,7 @@
   },
   {
     "id": 34,
-    "id_type": 32,
+    "id_type": 19,
     "name": {
       "ru": "Долма",
       "uz": "Dolma",
