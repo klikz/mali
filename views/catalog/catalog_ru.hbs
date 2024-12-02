@@ -1,14 +1,13 @@
 <div class="wrapper">
     {{> ru/nav}}
-   <div class="catalog">
+    <div class="catalog">
         <div class="container">
             <div class="catalog__header">
                 <div class="catalog__header-left">
                     <h2 class="catalog-title">Наша продукция</h2>
                     <div class="catalog__header-pricelist mob button-mini">
                         <h3>Прайс-лист</h3>
-                        <svg width="20" height="20" viewBox="0 0 20 20" fill="none"
-                            xmlns="http://www.w3.org/2000/svg">
+                        <svg width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
                             <mask id="mask0_25_4772" style="mask-type:alpha" maskUnits="userSpaceOnUse" x="0" y="0"
                                 width="20" height="20">
                                 <rect width="20" height="20" fill="#D9D9D9" />
@@ -38,8 +37,7 @@
                             </svg></a>
                     </div><a class="catalog__header-pricelist button-mini" href="#">
                         {{!-- <h3>Скачать прайс-лист</h3>
-                        <svg width="20" height="20" viewBox="0 0 20 20"
-                            fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <svg width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
                             <mask id="mask0_25_4772" style="mask-type:alpha" maskUnits="userSpaceOnUse" x="0" y="0"
                                 width="20" height="20">
                                 <rect width="20" height="20" fill="#D9D9D9" />
@@ -86,6 +84,19 @@
                             <h3>Назад</h3>
                         </div>
                         <h3 class="catalog__side-title">Фильтр</h3>
+                        <div>
+                            <div style="cursor: pointer;
+                                        margin-bottom: 10px;
+                                        padding-left: 2.2058823529vw;
+                                        padding-right: 1.7647058824vw;
+                                        gap: 0.7352941176vw;
+                                        font-family:'Arial Bold'">
+
+                                <a onclick="sort_cat()">
+                                    <h3 class=""> Все продукты</h3>
+                                </a>
+                            </div>
+                        </div>
                         <div class="catalog__side-select">
                             <div class="catalog__select">
                                 <div class="catalog__select-btn">
@@ -109,9 +120,9 @@
                                     <ul class="catalog__select-list">
                                         <li onclick="sort_cat(1)" class="catalog__select-item">Слоеное</li>
                                         <li onclick="sort_cat(2)" class="catalog__select-item">Сдобное</li>
-                                        <li onclick="sort_cat(3)"  class="catalog__select-item">Песочное</li>
-                                        <li onclick="sort_cat(4)"  class="catalog__select-item">Катлама</li>
-                                        <li onclick="sort_cat(5)"  class="catalog__select-item">Для пиццы</li>
+                                        <li onclick="sort_cat(3)" class="catalog__select-item">Песочное</li>
+                                        <li onclick="sort_cat(4)" class="catalog__select-item">Катлама</li>
+                                        <li onclick="sort_cat(5)" class="catalog__select-item">Для пиццы</li>
                                     </ul>
                                 </div>
                             </div>
@@ -135,15 +146,15 @@
                                 </div>
                                 <div class="catalog__select-content">
                                     <ul class="catalog__select-list">
-                                        <li onclick="sort_cat(6)"  class="catalog__select-item">Блинчики</li>
-                                        <li onclick="sort_cat(7)"  class="catalog__select-item">Сосиски в тесте</li>
-                                        <li onclick="sort_cat(8)"  class="catalog__select-item">Чебуреки</li>
-                                        <li onclick="sort_cat(9)"  class="catalog__select-item">Пельмени</li>
-                                        <li onclick="sort_cat(10)"  class="catalog__select-item">Манты</li>
-                                        <li onclick="sort_cat(11)"  class="catalog__select-item">Вареники</li>
-                                        <li onclick="sort_cat(12)"  class="catalog__select-item">Самса</li>
+                                        <li onclick="sort_cat(6)" class="catalog__select-item">Блинчики</li>
+                                        <li onclick="sort_cat(7)" class="catalog__select-item">Сосиски в тесте</li>
+                                        <li onclick="sort_cat(8)" class="catalog__select-item">Чебуреки</li>
+                                        <li onclick="sort_cat(9)" class="catalog__select-item">Пельмени</li>
+                                        <li onclick="sort_cat(10)" class="catalog__select-item">Манты</li>
+                                        <li onclick="sort_cat(11)" class="catalog__select-item">Вареники</li>
+                                        <li onclick="sort_cat(12)" class="catalog__select-item">Самса</li>
                                         <li onclick="sort_cat(13)" class="catalog__select-item">Вафли</li>
-                                        <li onclick="sort_cat(14)"  class="catalog__select-item">Сырники</li>
+                                        <li onclick="sort_cat(14)" class="catalog__select-item">Сырники</li>
 
                                     </ul>
                                 </div>
@@ -168,12 +179,13 @@
                                 </div>
                                 <div class="catalog__select-content">
                                     <ul class="catalog__select-list">
-                                        <li onclick="sort_cat(20)"  class="catalog__select-item">С говядиной</li>
-                                        <li onclick="sort_cat(21)"  class="catalog__select-item">С тыквой</li>
-                                        <li onclick="sort_cat(22)"  class="catalog__select-item">С говядиной и овощами</li>
-                                        <li onclick="sort_cat(23)"  class="catalog__select-item">С курицей</li>
-                                        <li onclick="sort_cat(24)"  class="catalog__select-item">С картошкой</li>
-                                        <li onclick="sort_cat(25)"  class="catalog__select-item">С зеленью</li>      
+                                        <li onclick="sort_cat(20)" class="catalog__select-item">С говядиной</li>
+                                        <li onclick="sort_cat(21)" class="catalog__select-item">С тыквой</li>
+                                        <li onclick="sort_cat(22)" class="catalog__select-item">С говядиной и овощами
+                                        </li>
+                                        <li onclick="sort_cat(23)" class="catalog__select-item">С курицей</li>
+                                        <li onclick="sort_cat(24)" class="catalog__select-item">С картошкой</li>
+                                        <li onclick="sort_cat(25)" class="catalog__select-item">С зеленью</li>
                                     </ul>
                                 </div>
                             </div> --}}
@@ -197,8 +209,8 @@
                                 </div>
                                 <div class="catalog__select-content">
                                     <ul class="catalog__select-list">
-                                        <li onclick="sort_cat(15)"  class="catalog__select-item">Котлеты</li>
-                                        <li onclick="sort_cat(16)"  class="catalog__select-item">Фрикадельки</li>
+                                        <li onclick="sort_cat(15)" class="catalog__select-item">Котлеты</li>
+                                        <li onclick="sort_cat(16)" class="catalog__select-item">Фрикадельки</li>
                                     </ul>
                                 </div>
                             </div>
@@ -222,28 +234,29 @@
                                 </div>
                                 <div class="catalog__select-content">
                                     <ul class="catalog__select-list">
-                                        <li onclick="sort_cat(17)"  class="catalog__select-item">Перцы фаршированные</li>
-                                        <li onclick="sort_cat(18)"  class="catalog__select-item">Голубцы</li>
-                                        <li onclick="sort_cat(19)"  class="catalog__select-item">Долма</li>
+                                        <li onclick="sort_cat(17)" class="catalog__select-item">Перцы фаршированные</li>
+                                        <li onclick="sort_cat(18)" class="catalog__select-item">Голубцы</li>
+                                        <li onclick="sort_cat(19)" class="catalog__select-item">Долма</li>
                                     </ul>
                                 </div>
                             </div>
 
 
-                            <div >
+                            {{!-- <div>
                                 <div class="catalog__select-btn">
-                                    
-                                        <a onclick="sort_cat()">
-                                            <h3 class="catalog__select" >Все продукты</h3>
-                                        </a>
-                                        </div>
-                                        </div>
+
+                                    <a onclick="sort_cat()">
+                                        <h3 class="catalog__select">Все продукты</h3>
+                                    </a>
+                                </div>
+                            </div> --}}
                         </div>
                         {{!-- catalog packing types --}}
                         {{!-- <div class="catalog__side-types">
                             <label class="catalog__types-item checkbox" for="type1">
-                                <input type="checkbox" onchange="sub_category_change(1)" id="type1" name="check"><svg width="30" height="30"
-                                    viewBox="0 0 30 30" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <input type="checkbox" onchange="sub_category_change(1)" id="type1" name="check"><svg
+                                    width="30" height="30" viewBox="0 0 30 30" fill="none"
+                                    xmlns="http://www.w3.org/2000/svg">
                                     <rect opacity="0.5" x="0.5" y="0.5" width="29" height="29" rx="9.5" fill="white"
                                         stroke="#D9D9D9" />
                                     <mask id="mask0_25_3074" style="mask-type:alpha" maskUnits="userSpaceOnUse" x="5"
@@ -259,8 +272,9 @@
                                 <h3>Og'irligi</h3>
                             </label>
                             <label class="catalog__types-item checkbox" for="type2">
-                                <input type="checkbox" onchange="sub_category_change(2)" id="type2" name="check"><svg width="30" height="30"
-                                    viewBox="0 0 30 30" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <input type="checkbox" onchange="sub_category_change(2)" id="type2" name="check"><svg
+                                    width="30" height="30" viewBox="0 0 30 30" fill="none"
+                                    xmlns="http://www.w3.org/2000/svg">
                                     <rect opacity="0.5" x="0.5" y="0.5" width="29" height="29" rx="9.5" fill="white"
                                         stroke="#D9D9D9" />
                                     <mask id="mask0_25_3074" style="mask-type:alpha" maskUnits="userSpaceOnUse" x="5"
@@ -431,8 +445,9 @@
         <div class="program-wrapper">
             <div class="program-left">
                 <h3 class="program-title"> Партнерская программа</h3>
-          <p class="program-text">C Mali активно сотрудничают ведущие ритейлеры и представители индустрии HoReCa, такие
-            как:</p>
+                <p class="program-text">C Mali активно сотрудничают ведущие ритейлеры и представители индустрии HoReCa,
+                    такие
+                    как:</p>
                 <div class="program__left-box">
                     <ul class="program__list">
                         <li class="program__list-item first"> <img src="/img/partners/el1.png" alt="partner"><img
@@ -458,12 +473,12 @@
             </div>
             <div class="program__right">
                 <h3 class="program__right-title">Dasturda ishtirok etish uchun ariza to'ldiring</h3>
-          <p class="program__right-text">и получите эксклюзивные условия сотрудничества, включая специализированные
-            продуктовые линии и маркетинговую поддержку</p>
-          <div class="program__right-bottom"><a class="button-other" href="#">
-              {{!-- <h3>Презентация</h3>
-              <svg width="30" height="30" viewBox="0 0 30 30" fill="none"
-                xmlns="http://www.w3.org/2000/svg">
+                <p class="program__right-text">и получите эксклюзивные условия сотрудничества, включая
+                    специализированные
+                    продуктовые линии и маркетинговую поддержку</p>
+                <div class="program__right-bottom"><a class="button-other" href="#">
+                        {{!-- <h3>Презентация</h3>
+                        <svg width="30" height="30" viewBox="0 0 30 30" fill="none" xmlns="http://www.w3.org/2000/svg">
                             <rect width="30" height="30" fill="currentColor" />
                             <mask id="mask0_102_791" style="mask-type:alpha" maskUnits="userSpaceOnUse" x="5" y="5"
                                 width="20" height="20">
@@ -476,27 +491,27 @@
                             </g>
                         </svg> --}}
                     </a><a class="button" href="#">заполнить заявку</a></div>
+            </div>
         </div>
-      </div>
     </section>
     <section class="call">
-      <div class="call-wrapper">
-        <h3 class="call-title">Позвоните если у вас возникли вопросы</h3>
-        <div class="call-item">
-          <svg width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
-            <mask id="mask0_55_2076" style="mask-type:alpha" maskUnits="userSpaceOnUse" x="0" y="0" width="20"
-              height="20">
-              <rect width="20" height="20" fill="#D9D9D9" />
-            </mask>
-            <g mask="url(#mask0_55_2076)">
-              <path
-                d="M2.89579 16.8958L1.24995 15.2292C1.05551 15.0347 0.954813 14.8021 0.947869 14.5312C0.940925 14.2604 1.03467 14.0278 1.22912 13.8333C2.32634 12.6528 3.62495 11.7188 5.12495 11.0312C6.62495 10.3438 8.24995 10 9.99995 10C11.75 10 13.375 10.3438 14.875 11.0312C16.375 11.7188 17.6736 12.6528 18.7708 13.8333C18.9652 14.0278 19.059 14.2604 19.052 14.5312C19.0451 14.8021 18.9444 15.0347 18.75 15.2292L17.1041 16.8958C16.9513 17.0486 16.7569 17.1458 16.5208 17.1875C16.2847 17.2292 16.0486 17.1667 15.8125 17L13.4166 15.2917C13.2916 15.1944 13.1909 15.0729 13.1145 14.9271C13.0381 14.7813 13 14.6344 13 14.4865V11.9583C12.5138 11.8056 12.0226 11.691 11.5262 11.6146C11.0298 11.5382 10.5211 11.5 9.99995 11.5C9.47884 11.5 8.97009 11.5382 8.4737 11.6146C7.97731 11.691 7.48606 11.8056 6.99995 11.9583V14.4865C6.99995 14.6344 6.96176 14.7813 6.88537 14.9271C6.80898 15.0729 6.70829 15.1944 6.58329 15.2917L4.18745 17C3.95134 17.1667 3.71176 17.2257 3.4687 17.1771C3.22565 17.1285 3.03467 17.0347 2.89579 16.8958ZM5.49995 12.3542C4.98606 12.6042 4.48954 12.9028 4.01037 13.25C3.5312 13.5972 3.07634 13.9722 2.64579 14.375L3.66662 15.3958L5.49995 14.0833V12.3542ZM14.5 12.3542V14.0833L16.3333 15.3958L17.3541 14.375C16.9236 13.9583 16.4722 13.5799 16 13.2396C15.5277 12.8993 15.0277 12.6042 14.5 12.3542ZM9.24995 6V2H10.75V6H9.24995ZM14.4375 8.22917L13.375 7.16667L16.2083 4.33333L17.2708 5.39583L14.4375 8.22917ZM5.56245 8.22917L2.72912 5.39583L3.79162 4.33333L6.62495 7.16667L5.56245 8.22917Z"
-                fill="white" />
-            </g>
-          </svg>
-          <h3>+998 71 200 30 05</h3>
-        </div><a class="button other" href="tel:+998712003005">обратный звонок</a>
-      </div>
+        <div class="call-wrapper">
+            <h3 class="call-title">Позвоните если у вас возникли вопросы</h3>
+            <div class="call-item">
+                <svg width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <mask id="mask0_55_2076" style="mask-type:alpha" maskUnits="userSpaceOnUse" x="0" y="0" width="20"
+                        height="20">
+                        <rect width="20" height="20" fill="#D9D9D9" />
+                    </mask>
+                    <g mask="url(#mask0_55_2076)">
+                        <path
+                            d="M2.89579 16.8958L1.24995 15.2292C1.05551 15.0347 0.954813 14.8021 0.947869 14.5312C0.940925 14.2604 1.03467 14.0278 1.22912 13.8333C2.32634 12.6528 3.62495 11.7188 5.12495 11.0312C6.62495 10.3438 8.24995 10 9.99995 10C11.75 10 13.375 10.3438 14.875 11.0312C16.375 11.7188 17.6736 12.6528 18.7708 13.8333C18.9652 14.0278 19.059 14.2604 19.052 14.5312C19.0451 14.8021 18.9444 15.0347 18.75 15.2292L17.1041 16.8958C16.9513 17.0486 16.7569 17.1458 16.5208 17.1875C16.2847 17.2292 16.0486 17.1667 15.8125 17L13.4166 15.2917C13.2916 15.1944 13.1909 15.0729 13.1145 14.9271C13.0381 14.7813 13 14.6344 13 14.4865V11.9583C12.5138 11.8056 12.0226 11.691 11.5262 11.6146C11.0298 11.5382 10.5211 11.5 9.99995 11.5C9.47884 11.5 8.97009 11.5382 8.4737 11.6146C7.97731 11.691 7.48606 11.8056 6.99995 11.9583V14.4865C6.99995 14.6344 6.96176 14.7813 6.88537 14.9271C6.80898 15.0729 6.70829 15.1944 6.58329 15.2917L4.18745 17C3.95134 17.1667 3.71176 17.2257 3.4687 17.1771C3.22565 17.1285 3.03467 17.0347 2.89579 16.8958ZM5.49995 12.3542C4.98606 12.6042 4.48954 12.9028 4.01037 13.25C3.5312 13.5972 3.07634 13.9722 2.64579 14.375L3.66662 15.3958L5.49995 14.0833V12.3542ZM14.5 12.3542V14.0833L16.3333 15.3958L17.3541 14.375C16.9236 13.9583 16.4722 13.5799 16 13.2396C15.5277 12.8993 15.0277 12.6042 14.5 12.3542ZM9.24995 6V2H10.75V6H9.24995ZM14.4375 8.22917L13.375 7.16667L16.2083 4.33333L17.2708 5.39583L14.4375 8.22917ZM5.56245 8.22917L2.72912 5.39583L3.79162 4.33333L6.62495 7.16667L5.56245 8.22917Z"
+                            fill="white" />
+                    </g>
+                </svg>
+                <h3>+998 71 200 30 05</h3>
+            </div><a class="button other" href="tel:+998712003005">обратный звонок</a>
+        </div>
     </section>
     {{> ru/footer}}
 </div>

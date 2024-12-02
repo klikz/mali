@@ -1173,6 +1173,11 @@
   cursor: pointer;
 }
 
+.catalog__select-btn2 {
+
+  cursor: pointer;
+}
+
 .catalog__select-btn h3 {
   font-weight: 400;
   text-align: left;
