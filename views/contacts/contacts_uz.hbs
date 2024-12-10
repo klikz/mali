@@ -103,7 +103,7 @@
               </a></div>
           </div>
           <div class="form">
-            <h3 class="form-title">Fikr-mulohaza</h3>
+            <h3 id="program" class="form-title">Fikr-mulohaza</h3>
             <form class="form__box">
               <div class="form__box-top">
                 <div class="form__box-input">
@@ -118,16 +118,16 @@
               </div>
               <div class="form__box-bottom">
                 <div class="form__box-message">
-                  <textarea class="input" name="message" placeholder="Xabaringiz" cols="49" rows="5"></textarea>
+                  <textarea class="input" name="message" id="message" placeholder="Xabaringiz" cols="49" rows="5"></textarea>
                 </div>
-                <button class="form__box-button button" type="button">Yuborish</button>
+                <button class="form__box-button button" type="button" onclick="send_message()">Yuborish</button>
               </div>
             </form>
           </div>
         </div>
       </div>
     </div>
-    <section class="program">
+    {{!-- <section class="program">
       <div class="program-item third"><img src="/img/pelmeni/item1.png" alt="item" draggable="false"></div>
       <div class="program-item fourth"><img src="/img/pelmeni/item2.png" alt="item" draggable="false"></div>
       <div class="program-wrapper second">
@@ -154,10 +154,10 @@
                     fill="white" />
                 </g>
               </svg>
-            </a><a class="button" href="#">arizani to'ldirish</a></div>
+            </a><a class="button" href="/contact/uz#program">arizani to'ldirish</a></div>
         </div>
       </div>
-    </section>
+    </section> --}}
     <section class="partners">
       <div class="partners-item"><img src="/img/pelmeni/item2.png" alt="item" draggable="false"></div>
       <div class="container">
@@ -236,3 +236,35 @@
     </section>
     {{> uz/footer}}
   </div>
+
+  <script>
+    async function send_message(){
+          let name = document.getElementById("name").value
+          let phone = document.getElementById("phone").value
+          let email = document.getElementById("email").value
+          let message = document.getElementById("message").value
+          const params = {
+          name,
+          phone,
+          email,
+          message
+      };
+      const options = {
+        headers: {
+            "Content-Type": "application/json",
+          },
+          method: 'POST',
+          body:  JSON.stringify(params)  
+      }
+
+      console.log(params)
+
+      fetch( '/message', options )
+          .then( response => response.json() )
+          .then( response => {
+              // Do something with response.
+              location.reload()
+             
+          } );
+    }
+  </script>

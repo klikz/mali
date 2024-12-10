@@ -4,7 +4,11 @@ const path = require('path');
 const router = require('./routes/routes');
 const dotenv = require('dotenv');
 const app = express();
+const bodyParser = require('body-parser');
+// app.use(express.json())
 
+app.use(bodyParser.urlencoded({ extended: false, limit: '5mb' }));
+app.use(bodyParser.json({ limit: '5mb'}));
 dotenv.config();
 // Create an instance of express-handlebars
 const hbs = create({ 
@@ -17,8 +21,15 @@ const hbs = create({
     }
  });
 app.use(express.static(path.join(__dirname, 'public')))
+
+app.post('/message', (req, res)=>{
+  console.log(req.body);
+  res.status(200).send({result: 'OK'});
+})
+
 app.use(router)
 app.get('/', (req, res) => { res.redirect('/uz');})
+
 // app.use((req, res, next) => { res.status(404).render('404', { title: 'Page Not Found1' }); });
 app.use((req, res, next) => { res.status(404).send("TODO: page not found") });
 // Set up Handlebars as the view engine
