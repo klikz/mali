@@ -127,7 +127,7 @@
     "id": 3,
     "id_type": 1,
     "count": 1,
-    "img": "no_photo.png",
+    "img": "sloenoe_sliv.png",
     "name": {
       "uz": "Sloyenoye sariyog'da",
       "ru": "Слоёное на сливочном масле",
@@ -363,10 +363,10 @@
     }
   },
   {
-    "id": 3,
+    "id": 8,
     "id_type": 3,
     "count": 1,
-    "img": "no_photo.png",
+    "img": "pesochnoe.png",
     "name": {
       "uz": "Qumloq xamir",
       "ru": "Песочное",
@@ -565,7 +565,7 @@
   {
     "id": 12,
     "id_type": 14,
-    "img": "no_photo.png",
+    "img": "sirnik_choco.jpg",
     "name": {
       "uz": "Shokolad bilan",
       "ru": "С шоколадом",
@@ -1354,7 +1354,7 @@
       "uz": "Qattiq pishloq",
       "en": "Hard cheese"
     },
-    "img": "no_photo.png",
+    "img": "cheburek_zelen.png",
     "count": 24,
     "weight": [
       65
