@@ -17,7 +17,7 @@
       "ru": "256 слоев",
       "en": "256 layers"
     },
-    "img": "1.png",
+    "img": "sdovnoe_testo.png",
     "count": 1,
     "weight": [
       500,
@@ -1448,7 +1448,7 @@
       "en": "100% beef"
     },
     "count": 4,
-    "img": "29.png",
+    "img": "gv_kotlet.png",
     "weight": [
       75
     ],
@@ -1519,7 +1519,7 @@
       "en": "100% chicken fillet"
     },
     "count": 4,
-    "img": "31.png",
+    "img": "kur_kotlet.png",
     "weight": [
       75
     ],
