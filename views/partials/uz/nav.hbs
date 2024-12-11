@@ -183,9 +183,34 @@
                             src="/img/logo_mali.svg" alt="alt"></a>
                     <h3>Muzlatilgan mahsulotlar ishlab chiqarish</h3>
                 </div>
-                <div class="header__lang"> <a class="header__lang-item ru" href="#">RU </a><a
-                        class="header__lang-item uz active" href="#">UZ</a><a class="header__lang-item en"
-                        href="#">EN</a>
+                <div class="header__lang"> 
+
+                {{#eq lang 'uz'}}
+                <a class="header__lang-item" href="/{{route}}ru">RU</a>
+                <a class="header__lang-item uz active" href="/{{route}}uz">UZ</a>
+                <a class="header__lang-item" href="/{{route}}en">EN</a>
+                {{else}}
+                <div></div>
+                {{/eq}}
+                {{#eq lang 'ru'}}
+                <a class="header__lang-item ru active" href="/{{route}}ru">RU</a>
+                <a class="header__lang-item " href="/{{route}}uz">UZ</a>
+                <a class="header__lang-item" href="/{{route}}en">EN</a>
+                {{else}}
+                <div></div>
+                {{/eq}}
+                {{#eq lang 'en'}}
+                <a class="header__lang-item" href="/{{route}}ru">RU</a>
+                <a class="header__lang-item " href="/{{route}}uz">UZ</a>
+                <a class="header__lang-item en active" href="/{{route}}en">EN</a>
+                {{else}}
+                <div></div>
+                {{/eq}}
+
+{{!-- 
+                    <a class="header__lang-item ru" href="#">RU </a>
+                    <a class="header__lang-item uz active" href="#">UZ</a>
+                    <a class="header__lang-item en" href="#">EN</a> --}}
                 </div>
                 <div class="header__search">
                     <input type="text" id="search" placeholder="Начните вводить"><a href="{{host}}/search/uz">
