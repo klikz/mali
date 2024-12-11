@@ -24,7 +24,7 @@
               </svg>
               </a>
             </button>
-            <button class="conctact__header-btn button-mini" type="button">
+            <button class="conctact__header-btn button-mini" type="button" onclick="shareURL()">
               <h3>Реквизиты</h3><svg width="20" height="20" viewBox="0 0 20 20" fill="none"
                 xmlns="http://www.w3.org/2000/svg">
                 <mask id="mask0_25_4765" style="mask-type:alpha" maskUnits="userSpaceOnUse" x="0" y="0" width="20"
@@ -123,9 +123,9 @@
               </div>
               <div class="form__box-bottom">
                 <div class="form__box-message">
-                  <textarea class="input" name="message" placeholder="Ваше сообщение" cols="49" rows="5"></textarea>
+                  <textarea class="input" name="message" id="message" placeholder="Ваше сообщение" cols="49" rows="5"></textarea>
                 </div>
-                <button class="form__box-button button" type="button">Отправить</button>
+                <button class="form__box-button button" type="button" onclick="send_message()">Отправить</button>
               </div>
             </form>
           </div>
@@ -262,14 +262,18 @@
           body:  JSON.stringify(params)  
       }
 
-      console.log(params)
-
       fetch( '/message', options )
           .then( response => response.json() )
           .then( response => {
               // Do something with response.
-              location.reload()
+              document.getElementById("name").value = "";
+              document.getElementById("phone").value = "";
+              document.getElementById("email").value = "";
+              document.getElementById("message").value = "";
+              document.getElementById("program").innerText  = "Обратная связь. Ваше сообщение отправлено."
              
           } );
     }
   </script>
+
+  
