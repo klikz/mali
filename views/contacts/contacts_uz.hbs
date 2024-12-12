@@ -5,7 +5,7 @@
         <div class="contact__header">
           <h2 class="contact-title">Kontaktlar</h2>
           <div class="contact__header-btns">
-            <button class="conctact__header-btn button-mini" type="button">
+            {{!-- <button class="conctact__header-btn button-mini" type="button">
               <h3>Narxlar ro'yxatini yuklab olish</h3><svg width="20" height="20" viewBox="0 0 20 20" fill="none"
                 xmlns="http://www.w3.org/2000/svg">
                 <mask id="mask0_25_4795" style="mask-type:alpha" maskUnits="userSpaceOnUse" x="0" y="0" width="20"
@@ -18,9 +18,12 @@
                     fill="currentColor" />
                 </g>
               </svg>
-            </button>
-            <button class="conctact__header-btn button-mini" type="button">
-              <h3>Tafsilotlar</h3><svg width="20" height="20" viewBox="0 0 20 20" fill="none"
+            </button> --}}
+            <button class="conctact__header-btn button-mini" type="button" target="_blank">
+              <a href="https://t.me/Mali_OfficeManager" >
+              <h3>Tafsilotlar</h3>
+              </a>
+              <svg width="20" height="20" viewBox="0 0 20 20" fill="none"
                 xmlns="http://www.w3.org/2000/svg">
                 <mask id="mask0_25_4765" style="mask-type:alpha" maskUnits="userSpaceOnUse" x="0" y="0" width="20"
                   height="20">
@@ -73,7 +76,7 @@
                 </a><a class="contact__item-link" href="tel:+998712003005">Menga qo'ng'iroq qiling</a>
               </div>
             </div>
-            <div class="contact__list-right"> <a class="button-rev" href="https://t.me/alati_uzb"><svg width="20"
+            <div class="contact__list-right"> <a class="button-rev" href="https://t.me/Mali_OfficeManager" target="_blank"><svg width="20"
                   height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
                   <g clip-path="url(#clip0_25_4827)">
                     <path
@@ -86,8 +89,8 @@
                     </clipPath>
                   </defs>
                 </svg>
-                <h3>@alati_uzb</h3>
-              </a><a class="button-rev" href="#"><svg width="20" height="20" viewBox="0 0 20 20" fill="none"
+                <h3>@Mali_OfficeManager</h3>
+              </a><a class="button-rev" href="mailto:offer@mali.uz"><svg width="20" height="20" viewBox="0 0 20 20" fill="none"
                   xmlns="http://www.w3.org/2000/svg">
                   <mask id="mask0_25_4811" style="mask-type:alpha" maskUnits="userSpaceOnUse" x="0" y="0" width="20"
                     height="20">
@@ -99,7 +102,7 @@
                       fill="currentColor" />
                   </g>
                 </svg>
-                <h3>@offer@mali.uz</h3>
+                <h3>offer@mali.uz</h3>
               </a></div>
           </div>
           <div class="form">
@@ -107,7 +110,7 @@
             <form class="form__box">
               <div class="form__box-top">
                 <div class="form__box-input">
-                  <input class="input" type="text" id="name" placeholder="Isminguz">
+                  <input class="input" type="text" id="name" placeholder="Ismingiz">
                 </div>
                 <div class="form__box-input">
                   <input class="input" type="number" id="phone" placeholder="Telefon raqamingiz">
@@ -263,7 +266,11 @@
           .then( response => response.json() )
           .then( response => {
               // Do something with response.
-              location.reload()
+               document.getElementById("name").value = "";
+              document.getElementById("phone").value = "";
+              document.getElementById("email").value = "";
+              document.getElementById("message").value = "";
+              document.getElementById("program").innerText  = "Fikr-mulohaza. Xabaringiz yuborildi."
              
           } );
     }
