@@ -5,7 +5,7 @@
         <div class="contact__header">
           <h2 class="contact-title">Contacts</h2>
           <div class="contact__header-btns">
-            <button class="conctact__header-btn button-mini" type="button">
+            {{!-- <button class="conctact__header-btn button-mini" type="button">
               <h3>Download price list</h3><svg width="20" height="20" viewBox="0 0 20 20" fill="none"
                 xmlns="http://www.w3.org/2000/svg">
                 <mask id="mask0_25_4795" style="mask-type:alpha" maskUnits="userSpaceOnUse" x="0" y="0" width="20"
@@ -18,8 +18,8 @@
                     fill="currentColor" />
                 </g>
               </svg>
-            </button>
-            <button class="conctact__header-btn button-mini" type="button">
+            </button> --}}
+            <button class="conctact__header-btn button-mini" type="button" onclick="shareURL()">
               <h3>Details</h3><svg width="20" height="20" viewBox="0 0 20 20" fill="none"
                 xmlns="http://www.w3.org/2000/svg">
                 <mask id="mask0_25_4765" style="mask-type:alpha" maskUnits="userSpaceOnUse" x="0" y="0" width="20"
@@ -103,7 +103,7 @@
               </a></div>
           </div>
           <div class="form">
-            <h3 class="form-title">Feedback</h3>
+            <h3 id="program" class="form-title">Feedback</h3>
             <form class="form__box">
               <div class="form__box-top">
                 <div class="form__box-input">
@@ -118,16 +118,16 @@
               </div>
               <div class="form__box-bottom">
                 <div class="form__box-message">
-                  <textarea class="input" name="message" placeholder="Ваше сообщение" cols="49" rows="5"></textarea>
+                  <textarea class="input" name="message" id="message" placeholder="Ваше сообщение" cols="49" rows="5"></textarea>
                 </div>
-                <button class="form__box-button button" type="button">Send</button>
+                <button class="form__box-button button" type="button" onclick="send_message('en')">Send</button>
               </div>
             </form>
           </div>
         </div>
       </div>
     </div>
-    <section class="program">
+    {{!-- <section class="program">
       <div class="program-item third"><img src="/img/pelmeni/item1.png" alt="item" draggable="false"></div>
       <div class="program-item fourth"><img src="/img/pelmeni/item2.png" alt="item" draggable="false"></div>
       <div class="program-wrapper second">
@@ -140,7 +140,8 @@
           <h3 class="program__right-title">Fill out the application to join the program</h3>
           <p class="program__right-text">and receive exclusive partnership conditions, including specialized product
             lines and marketing support.</p>
-          <div class="program__right-bottom"><a class="button-other" href="#">
+          <div class="program__right-bottom">
+            <a class="button-other" href="#">
               <h3>Presentation</h3><svg width="30" height="30" viewBox="0 0 30 30" fill="none"
                 xmlns="http://www.w3.org/2000/svg">
                 <rect width="30" height="30" fill="currentColor" />
@@ -154,10 +155,11 @@
                     fill="white" />
                 </g>
               </svg>
-            </a><a class="button" href="#">apply now</a></div>
+            </a>
+            <a class="button" href="#">apply now</a></div>
         </div>
       </div>
-    </section>
+    </section> --}}
     <section class="partners">
       <div class="partners-item"><img src="/img/pelmeni/item2.png" alt="item" draggable="false"></div>
       <div class="container">

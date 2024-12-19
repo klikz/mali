@@ -4,7 +4,7 @@
       <div class="container">
         <div class="about__header">
           <h2 class="about-title">Our company</h2>
-          <div class="about__header-btns"> <a class="conctact__header-btn button-mini first" href="/files/mali_calalog.pdf">
+          <div class="about__header-btns"> <a class="conctact__header-btn button-mini first" href="/catalog/en">
               <h3>Catalog</h3><svg width="20" height="20" viewBox="0 0 20 20" fill="none"
                 xmlns="http://www.w3.org/2000/svg">
                 <mask id="mask0_50_1360" style="mask-type:alpha" maskUnits="userSpaceOnUse" x="0" y="0" width="20"
@@ -61,7 +61,24 @@
             <div class="about__video-slider">
               <div class="swiper videoSlider">
                 <div class="swiper-wrapper">
-                  <div class="swiper-slide"> <img src="/img/about-video.jpg" alt="video">
+                  <div class="swiper-slide"> 
+                    <iframe height="100%" width="100%" src="https://www.youtube.com/embed/GtDqFSzjEfQ" allowfullscreen controls frameborder="0"></iframe>
+                    {{!-- <img src="/img/about-video.jpg" alt="video">
+                    <button class="about__video-btn" type="button"><svg width="60" height="60" viewBox="0 0 60 60"
+                        fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <mask id="mask0_55_2850" style="mask-type:alpha" maskUnits="userSpaceOnUse" x="0" y="0"
+                          width="60" height="60">
+                          <rect width="60" height="60" fill="#D9D9D9" />
+                        </mask>
+                        <g mask="url(#mask0_55_2850)">
+                          <path
+                            d="M24 40.5L40.5 30L24 19.5V40.5ZM30.0175 54C26.7142 54 23.6042 53.375 20.6875 52.125C17.7708 50.875 15.2188 49.1562 13.0312 46.9688C10.8438 44.7812 9.125 42.23 7.875 39.315C6.625 36.4 6 33.2854 6 29.9713C6 26.6571 6.625 23.5521 7.875 20.6563C9.125 17.7604 10.8438 15.2188 13.0312 13.0312C15.2188 10.8438 17.77 9.125 20.685 7.875C23.6 6.625 26.7146 6 30.0288 6C33.3429 6 36.4479 6.625 39.3438 7.875C42.2396 9.125 44.7812 10.8438 46.9688 13.0312C49.1562 15.2188 50.875 17.765 52.125 20.67C53.375 23.5754 54 26.6796 54 29.9825C54 33.2858 53.375 36.3958 52.125 39.3125C50.875 42.2292 49.1562 44.7812 46.9688 46.9688C44.7812 49.1562 42.235 50.875 39.33 52.125C36.4246 53.375 33.3204 54 30.0175 54ZM30 49.5C35.4167 49.5 40.0208 47.6042 43.8125 43.8125C47.6042 40.0208 49.5 35.4167 49.5 30C49.5 24.5833 47.6042 19.9792 43.8125 16.1875C40.0208 12.3958 35.4167 10.5 30 10.5C24.5833 10.5 19.9792 12.3958 16.1875 16.1875C12.3958 19.9792 10.5 24.5833 10.5 30C10.5 35.4167 12.3958 40.0208 16.1875 43.8125C19.9792 47.6042 24.5833 49.5 30 49.5Z"
+                            fill="white" />
+                        </g>
+                      </svg>
+                    </button> --}}
+                  </div>
+                  {{!-- <div class="swiper-slide"> <img src="/img/about-video.jpg" alt="video">
                     <button class="about__video-btn" type="button"><svg width="60" height="60" viewBox="0 0 60 60"
                         fill="none" xmlns="http://www.w3.org/2000/svg">
                         <mask id="mask0_55_2850" style="mask-type:alpha" maskUnits="userSpaceOnUse" x="0" y="0"
@@ -90,22 +107,7 @@
                         </g>
                       </svg>
                     </button>
-                  </div>
-                  <div class="swiper-slide"> <img src="/img/about-video.jpg" alt="video">
-                    <button class="about__video-btn" type="button"><svg width="60" height="60" viewBox="0 0 60 60"
-                        fill="none" xmlns="http://www.w3.org/2000/svg">
-                        <mask id="mask0_55_2850" style="mask-type:alpha" maskUnits="userSpaceOnUse" x="0" y="0"
-                          width="60" height="60">
-                          <rect width="60" height="60" fill="#D9D9D9" />
-                        </mask>
-                        <g mask="url(#mask0_55_2850)">
-                          <path
-                            d="M24 40.5L40.5 30L24 19.5V40.5ZM30.0175 54C26.7142 54 23.6042 53.375 20.6875 52.125C17.7708 50.875 15.2188 49.1562 13.0312 46.9688C10.8438 44.7812 9.125 42.23 7.875 39.315C6.625 36.4 6 33.2854 6 29.9713C6 26.6571 6.625 23.5521 7.875 20.6563C9.125 17.7604 10.8438 15.2188 13.0312 13.0312C15.2188 10.8438 17.77 9.125 20.685 7.875C23.6 6.625 26.7146 6 30.0288 6C33.3429 6 36.4479 6.625 39.3438 7.875C42.2396 9.125 44.7812 10.8438 46.9688 13.0312C49.1562 15.2188 50.875 17.765 52.125 20.67C53.375 23.5754 54 26.6796 54 29.9825C54 33.2858 53.375 36.3958 52.125 39.3125C50.875 42.2292 49.1562 44.7812 46.9688 46.9688C44.7812 49.1562 42.235 50.875 39.33 52.125C36.4246 53.375 33.3204 54 30.0175 54ZM30 49.5C35.4167 49.5 40.0208 47.6042 43.8125 43.8125C47.6042 40.0208 49.5 35.4167 49.5 30C49.5 24.5833 47.6042 19.9792 43.8125 16.1875C40.0208 12.3958 35.4167 10.5 30 10.5C24.5833 10.5 19.9792 12.3958 16.1875 16.1875C12.3958 19.9792 10.5 24.5833 10.5 30C10.5 35.4167 12.3958 40.0208 16.1875 43.8125C19.9792 47.6042 24.5833 49.5 30 49.5Z"
-                            fill="white" />
-                        </g>
-                      </svg>
-                    </button>
-                  </div>
+                  </div> --}}
                 </div>
                 <div class="swiper-pagination videoPagination"></div>
               </div>
@@ -161,7 +163,7 @@
         </div>
         <div class="about__aim">
           <div class="about__aim-bottom second">
-            <div class="about__aim-img first"><img src="/img/aim1.jpg" alt="aim"></div>
+            <div class="about__aim-img first"><img src="/img/about_img_1.jpg" alt="aim"></div>
           </div>
           <div class="about__aim-top">
             <h3 class="about__aim-title">Our Goal</h3>
@@ -173,17 +175,16 @@
             </div>
           </div>
           <div class="about__aim-bottom">
-            <div class="about__aim-img first"><img src="/img/aim1.jpg" alt="aim"></div>
-            <div class="about__aim-img second"><img src="/img/aim2.jpg" alt="aim"></div>
+            <div class="about__aim-img first"><img src="/img/about_img_1.jpg" alt="aim"></div>
+            <div class="about__aim-img second"><img src="/img/about_img_2.jpg" alt="aim"></div>
           </div>
         </div>
         <div class="standarts">
-          <h2 class="standarts-title">Высокие стандарты</h2>
+          <h2 class="standarts-title">High standards</h2>
           <div class="standarts__header">
-            <p class="standarts__header-text">Mali придерживается строгих международных стандартов качества,
-              подтвержденных сертификатами</p>
-            <p class="standarts__header-subtext">Также полная открытость процессов производства гарантирует, что каждый
-              продукт соответствует самым высоким требованиям безопасности и качества</p>
+            <p class="standarts__header-text">Mali adheres to strict international quality standards,
+              confirmed by certificates</p>
+            <p class="standarts__header-subtext">Also, the complete openness of the production processes ensures that each product meets the highest safety and quality requirements.</p>
           </div>
           <ul class="standarts__list">
             <li class="standarts__list-item">
@@ -285,7 +286,7 @@
                     fill="white" />
                 </g>
               </svg> --}}
-            </a><a class="button" href="#">apply now</a></div>
+            </a><a class="button" href="/contact/en#program">apply now</a></div>
         </div>
       </div>
     </section>

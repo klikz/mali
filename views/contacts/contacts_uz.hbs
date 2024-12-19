@@ -19,10 +19,8 @@
                 </g>
               </svg>
             </button> --}}
-            <button class="conctact__header-btn button-mini" type="button" target="_blank">
-              <a href="https://t.me/Mali_OfficeManager" >
+            <button class="conctact__header-btn button-mini" type="button" onclick="shareURL()">
               <h3>Tafsilotlar</h3>
-              </a>
               <svg width="20" height="20" viewBox="0 0 20 20" fill="none"
                 xmlns="http://www.w3.org/2000/svg">
                 <mask id="mask0_25_4765" style="mask-type:alpha" maskUnits="userSpaceOnUse" x="0" y="0" width="20"
@@ -123,7 +121,7 @@
                 <div class="form__box-message">
                   <textarea class="input" name="message" id="message" placeholder="Xabaringiz" cols="49" rows="5"></textarea>
                 </div>
-                <button class="form__box-button button" type="button" onclick="send_message()">Yuborish</button>
+                <button class="form__box-button button" type="button" onclick="send_message('uz')">Yuborish</button>
               </div>
             </form>
           </div>
@@ -239,39 +237,3 @@
     </section>
     {{> uz/footer}}
   </div>
-
-  <script>
-    async function send_message(){
-          let name = document.getElementById("name").value
-          let phone = document.getElementById("phone").value
-          let email = document.getElementById("email").value
-          let message = document.getElementById("message").value
-          const params = {
-          name,
-          phone,
-          email,
-          message
-      };
-      const options = {
-        headers: {
-            "Content-Type": "application/json",
-          },
-          method: 'POST',
-          body:  JSON.stringify(params)  
-      }
-
-      console.log(params)
-
-      fetch( '/message', options )
-          .then( response => response.json() )
-          .then( response => {
-              // Do something with response.
-               document.getElementById("name").value = "";
-              document.getElementById("phone").value = "";
-              document.getElementById("email").value = "";
-              document.getElementById("message").value = "";
-              document.getElementById("program").innerText  = "Fikr-mulohaza. Xabaringiz yuborildi."
-             
-          } );
-    }
-  </script>
