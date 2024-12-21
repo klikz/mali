@@ -751,6 +751,11 @@
       "ru": "белков - 7 г, углеводов - 35 г, жиров - 25 г.",
       "uz": "oqsillar - 7 g, uglevodlar - 35 g, yog'lar - 25 g.",
       "en": "proteins - 7 g, carbohydrates - 35 g, fats - 25 g."
+    },
+    "type": {
+      "ru": "Сосиски в тесте",
+      "uz": "Xamirda sosiskalar",
+      "en": "Sausages in dough"
     }
   },
   {
@@ -1010,7 +1015,7 @@
     },
     "type": {
       "ru": "Самса",
-      "uz": "Samsa",
+      "uz": "Somsa",
       "en": "Samsa"
     },
     "info": {
@@ -1069,7 +1074,7 @@
     },
     "type": {
       "ru": "Самса",
-      "uz": "Samsa",
+      "uz": "Somsa",
       "en": "Samsa"
     },
     "info": {
@@ -1128,7 +1133,7 @@
     },
     "type": {
       "ru": "Самса",
-      "uz": "Samsa",
+      "uz": "Somsa",
       "en": "Samsa"
     },
     "info": {
@@ -1176,7 +1181,7 @@
     },
     "type": {
       "ru": "Самса",
-      "uz": "Samsa",
+      "uz": "Somsa",
       "en": "Samsa"
     },
     "info": {
@@ -1213,7 +1218,7 @@
     },
     "type": {
       "ru": "Самса",
-      "uz": "Samsa",
+      "uz": "Somsa",
       "en": "Samsa"
     },
     "info": {
@@ -1250,7 +1255,7 @@
     },
     "type": {
       "ru": "Самса",
-      "uz": "Samsa",
+      "uz": "Somsa",
       "en": "Samsa"
     },
     "info": {
@@ -1427,6 +1432,11 @@
       "ru": "белков 13,7 г., углеводов 5,9 г, жиров - 9,4 г.",
       "uz": "oqsillar - 13,7 g, uglevodlar - 5,9 g, yog'lar - 9,4 g.",
       "en": "proteins - 13.7 g, carbohydrates - 5.9 g, fats - 9.4 g."
+    },
+    "type": {
+      "ru": "Фрикадельки",
+      "uz": "Frikadelkalar",
+      "en": "Meatballs"
     }
   },
   {
@@ -1498,6 +1508,11 @@
           "box_weight": 3
         }
       ]
+    },
+    "type": {
+      "ru": "Перцы фаршированные",
+      "uz": "Go'shtli qalampir",
+      "en": "Stuffed peppers"
     }
   },
   {
@@ -1571,6 +1586,11 @@
           "box_weight": 3
         }
       ]
+    },
+    "type": {
+     "ru": "Голубцы",
+      "uz": "Gulubtsi",
+      "en": "Stuffed cabbage rolls"
     }
   },
   {
@@ -1605,6 +1625,11 @@
           "box_weight": 1.6
         }
       ]
-    }
+    },
+    "type": {
+      "ru": "Долма",
+      "uz": "Dolma",
+      "en": "Dolma"
+     }
   }
 ]
