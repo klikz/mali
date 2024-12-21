@@ -5,11 +5,11 @@ const router = require('./routes/routes');
 const dotenv = require('dotenv');
 const app = express();
 const bodyParser = require('body-parser');
-// app.use(express.json())
 
 app.use(bodyParser.urlencoded({ extended: false, limit: '5mb' }));
 app.use(bodyParser.json({ limit: '5mb'}));
 dotenv.config();
+
 // Create an instance of express-handlebars
 const hbs = create({ 
     extname: '.hbs',
