@@ -5,6 +5,8 @@ let products
 const wl_path = window.location.pathname
 let lang = wl_path.split("/")
 lang = lang.at(-2)
+
+document.getElementById("search_area").placeholder = myParam
 /**
  * Fetches product data from the products.json file and
  * calls the sortSearch function to filter and display the results.
@@ -38,7 +40,7 @@ get_data()
 function sortSearch() {
     // Filter products that have an image
     let filteredProducts = products.filter(product => product.img);
-
+    // document.getElementById("search_area").placeholder = product
     // Clear current search list
     document.querySelector(".search__list").innerHTML = "";
     const searchList = document.querySelector(".search__list");
@@ -56,7 +58,7 @@ function sortSearch() {
     });
 
     // Update the count of found items
-    document.getElementById("count").innerText = `Найдено ${filteredProducts.length} вариантов`;
+    lang == "uz" ?document.getElementById("count").innerText = `${filteredProducts.length} turdagi maxsulot topildi` : lang == "en" ? document.getElementById("count").innerText = `${filteredProducts.length} products found` : document.getElementById("count").innerText = `Найдено ${filteredProducts.length} вариантов`;
 
     // Create and append product items to the search list
     filteredProducts.forEach(product => {

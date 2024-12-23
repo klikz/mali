@@ -1,0 +1,70 @@
+<div class="wrapper">
+    {{> uz/nav}}
+   <div class="search">
+      <div class="container">
+        <h2 class="search-title">Qidiruv natijasi</h2>
+        <div class="search-input">
+          <input type="text" id="search_area" placeholder="Начните вводить">
+          <button onclick="search_text('uz')">
+            <svg width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <mask id="mask0_159_1118" style="mask-type:alpha" maskUnits="userSpaceOnUse" x="0" y="0" width="20"
+                height="20">
+                <rect width="20" height="20" fill="#D9D9D9" />
+              </mask>
+              <g mask="url(#mask0_159_1118)">
+                <path
+                  d="M15.9375 17L10.9583 12.0208C10.5417 12.3264 10.0848 12.566 9.58771 12.7396C9.09063 12.9132 8.5616 13 8.00063 13C6.61132 13 5.43056 12.5139 4.45833 11.5417C3.48611 10.5694 3 9.38889 3 8C3 6.61111 3.48611 5.43056 4.45833 4.45833C5.43056 3.48611 6.61111 3 8 3C9.38889 3 10.5694 3.48611 11.5417 4.45833C12.5139 5.43056 13 6.61132 13 8.00063C13 8.5616 12.9132 9.09063 12.7396 9.58771C12.566 10.0848 12.3264 10.5417 12.0208 10.9583L17 15.9375L15.9375 17ZM8 11.5C8.97222 11.5 9.79861 11.1597 10.4792 10.4792C11.1597 9.79861 11.5 8.97222 11.5 8C11.5 7.02778 11.1597 6.20139 10.4792 5.52083C9.79861 4.84028 8.97222 4.5 8 4.5C7.02778 4.5 6.20139 4.84028 5.52083 5.52083C4.84028 6.20139 4.5 7.02778 4.5 8C4.5 8.97222 4.84028 9.79861 5.52083 10.4792C6.20139 11.1597 7.02778 11.5 8 11.5Z"
+                  fill="black" />
+              </g>
+            </svg>
+          </button>
+        </div>
+        <h3 class="search-finded" id="count"></h3>
+        <ul class="search__list">
+        </ul>
+      </div>
+    </div>
+        <section class="program" id="program">
+            <div class="program-item first"><img src="/img/pelmeni/item1.png" alt="item" draggable="false"></div>
+            <div class="program-item second"><img src="/img/pelmeni/item2.png" alt="item" draggable="false"></div>
+            <div class="program-wrapper">
+                <div class="program-left">
+                    <h3 class="program-title"> Hamkorlik dasturi</h3>
+                    <p class="program-text">Mali bilan yetakchi chakana savdo tarmoqlari va HoReCa sanoati vakillari
+                        faol hamkorlik qilmoqda, jumladan:</p>
+                    <div class="program__left-box">
+                        <ul class="program__list">
+                            <li class="program__list-item first"> <img src="/img/partners/el1.png" alt="partner"><img
+                                    class="inner" src="/img/partners/el3.png" alt="partner"></li>
+                            <li class="program__list-item second"><img src="/img/partners/el2.png" alt="partner"><img
+                                    class="inner" src="/img/partners/el4.png" alt="partner"></li>
+                        </ul><a class="button-other white" href="{{host}}/catalog/uz">
+                            <h3>Barcha mahsulotlar</h3><svg width="30" height="30" viewBox="0 0 30 30" fill="none"
+                                xmlns="http://www.w3.org/2000/svg">
+                                <rect width="30" height="30" fill="currentColor" />
+                                <mask id="mask0_102_779" style="mask-type:alpha" maskUnits="userSpaceOnUse" x="5" y="5"
+                                    width="20" height="20">
+                                    <rect x="5" y="5" width="20" height="20" fill="#D9D9D9" />
+                                </mask>
+                                <g mask="url(#mask0_102_779)">
+                                    <path
+                                        d="M18.125 15.75H9V14.25H18.125L13.9375 10.0625L15 9L21 15L15 21L13.9375 19.9375L18.125 15.75Z"
+                                        fill="#E80029" />
+                                </g>
+                            </svg>
+                        </a>
+                    </div>
+                </div>
+                <div class="program__right">
+                    <h3 class="program__right-title">Dasturda ishtirok etish uchun ariza to'ldiring</h3>
+                    <p class="program__right-text">va maxsus shartlarni, jumladan, maxsus mahsulot liniyalari va
+                        marketing ko‘magini oling</p>
+                    <div class="program__right-bottom"><a class="button-other" href="#">
+
+                        </a><a class="button" href="/contact/uz#program">arizani to'ldirish</a></div>
+                </div>
+            </div>
+        </section>
+{{> uz/footer}}
+<script src="/js/search_prod.js"> </script>
+</div>
