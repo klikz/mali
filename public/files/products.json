@@ -17,7 +17,7 @@
       "ru": "256 слоев",
       "en": "256 layers"
     },
-    "img": "sdovnoe_testo.png",
+    "img": "sdovnoe_testo_2.png",
     "count": 1,
     "weight": [
       500,
@@ -127,7 +127,7 @@
     "id": 3,
     "id_type": 1,
     "count": 1,
-    "img": "sloenoe_sliv.png",
+    "img": "sloenoe_sliv_2.png",
     "name": {
       "uz": "Sloyenoye sariyog'da",
       "ru": "Слоёное на сливочном масле",
@@ -366,7 +366,7 @@
     "id": 8,
     "id_type": 3,
     "count": 1,
-    "img": "pesochnoe.png",
+    "img": "pesochnoe_2.png",
     "name": {
       "uz": "Qumloq xamir",
       "ru": "Песочное",
@@ -565,7 +565,7 @@
   {
     "id": 12,
     "id_type": 14,
-    "img": "sirnik_choco.jpg",
+    "img": "sirnik_choco_2.png",
     "name": {
       "uz": "Shokolad bilan",
       "ru": "С шоколадом",
@@ -1458,7 +1458,7 @@
       "en": "100% beef"
     },
     "count": 4,
-    "img": "gv_kotlet.png",
+    "img": "gv_kotlet_2.png",
     "weight": [
       75
     ],
@@ -1491,7 +1491,7 @@
       "uz": "100% mol go'shti",
       "en": "100% beef"
     },
-    "img": "30.png",
+    "img": "30_2.png",
     "weight": [
       500
     ],
@@ -1534,7 +1534,7 @@
       "en": "100% chicken fillet"
     },
     "count": 4,
-    "img": "kur_kotlet.png",
+    "img": "kur_kotlet_2.png",
     "weight": [
       75
     ],
@@ -1567,7 +1567,7 @@
       "uz": "100% mol go'shti",
       "en": "100% beef"
     },
-    "img": "32.png",
+    "img": "32_2.png",
     "count": 8,
     "weight": [
       65
