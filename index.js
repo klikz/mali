@@ -36,7 +36,7 @@ app.post('/message', (req, res)=>{
 
   // Проверка наличия всех полей
   if (name!='' && phone!='' && email!='' && message!='') {
-    const mes = `<b>Имия:</b> ${name}\n<b>Номер телефона:</b> ${phone} \n<b>Е-mail</b>: ${email} \n<b>Cообщение:</b>\n${message}`;
+    const mes = `<b>Имя:</b> ${name}\n<b>Номер телефона:</b> ${phone} \n<b>Е-mail</b>: ${email} \n<b>Cообщение:</b>\n${message}`;
     console.log(mes);
     _TelegramBot
       .send(mes)
