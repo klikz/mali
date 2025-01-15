@@ -14,8 +14,4 @@ router.use(contactsRoutes)
 router.use(detailRoutes)
 router.use(searchRoutes)
 
-
-
-
-
 module.exports = router
