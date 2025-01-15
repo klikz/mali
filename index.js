@@ -50,7 +50,12 @@ app.use(router)
 app.get('/', (req, res) => { res.redirect('/uz');})
 
 // app.use((req, res, next) => { res.status(404).render('404', { title: 'Page Not Found1' }); });
-app.use((req, res, next) => { res.status(404).send("TODO: page not found") });
+app.use((req, res, next) => { res.render('not_found/not_found', {
+  lang: "uz",
+//   route: "search/",
+  title: "Mali"
+ }); });
+
 // Set up Handlebars as the view engine
 app.engine('.hbs', hbs.engine);
 app.set('view engine', '.hbs');

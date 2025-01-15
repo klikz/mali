@@ -14,13 +14,7 @@ router.use(contactsRoutes)
 router.use(detailRoutes)
 router.use(searchRoutes)
 
-router.get('*', (req, res) => {
-    res.render('not_found/not_found', {
-      lang: "uz",
-    //   route: "search/",
-      title: "Mali"
-     });
-  });
+
 
 
 
