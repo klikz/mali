@@ -5,7 +5,6 @@ const router = require('./routes/routes');
 const dotenv = require('dotenv');
 const app = express();
 const bodyParser = require('body-parser');
-// test
 
 
 const TelegramBot = require('./lib/TelegramBot'); // Правильный импорт
