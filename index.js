@@ -6,7 +6,6 @@ const dotenv = require('dotenv');
 const app = express();
 const bodyParser = require('body-parser');
 
-
 app.use(bodyParser.urlencoded({ extended: false, limit: '5mb' }));
 app.use(bodyParser.json({ limit: '5mb'}));
 dotenv.config();
@@ -23,9 +22,28 @@ const hbs = create({
  });
 app.use(express.static(path.join(__dirname, 'public')))
 
+
 app.post('/message', (req, res)=>{
-  console.log(req.body);
-  res.status(200).send({result: 'OK'});
+
+  console.log(req.body);  
+  const { name, phone, email, message } = req.body;
+
+  // Проверка наличия всех полей
+  if (name!='' && phone!='' && email!='' && message!='') {
+    const mes = `<b>Имия:</b> ${name}\n<b>Номер телефона:</b> ${phone} \n<b>Е-mail</b>: ${email} \n<b>Cообщение:</b>\n${message}`;
+    console.log(mes);
+    _TelegramBot
+      .send(mes)
+      .then(() => {
+        res.status(200).send({ result: 'OK' });
+      })
+      .catch((err) => {
+        console.error('Ошибка при отправке сообщения:', err);
+        res.status(500).send({ result: 'ERROR', error: 'Ошибка при отправке сообщения' });
+      });
+  } else {
+    res.status(400).send({ result: 'ERROR', error: 'Некорректные данные' });
+  }
 })
 
 app.use(router)
@@ -46,4 +64,3 @@ const PORT = process.env.PORT || 5000;
 app.listen(PORT, () => {
   console.log(`Server is running on http://localhost:${PORT}`);
 });
-
